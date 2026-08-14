@@ -116,19 +116,33 @@ RoyalRoad 的標籤是固定清單，請在建檔頁面的清單裡勾選。建�
 
 ---
 
-## ⚠️ AI 揭露 — 上傳前務必確認
+## AI 揭露 — 已查證，結論：不需要標籤，但有前提
 
-RoyalRoad 對 AI 生成內容有規範，而且改過好幾次。你的狀況是：
+RoyalRoad 官方 AI 政策（Royal Road AI-text policy）第 5 條，翻譯有專門條款：
 
-- **原文（中文）**：100% 人類創作，你寫的
-- **英文版**：AI 輔助創譯
+> **5.** If the AI is used for translating a fiction, the novel must be read and
+> proofread by someone who knows the language to guarantee the accuracy.
+>
+> *(Update: **No tag is required for this, as long as a human goes over the translation.**
+> As this is likely going to be the new translation standard.*
+>
+> *If no human reads, proofreads, and edits the translation, then it must be tagged as
+> "AI-assisted" as it will retain the AI's tone, and voice.)*
 
-這屬於「AI-assisted translation」，不是 AI 生成原創。但**規則怎麼認定由平台說了算**。
+**所以：**
 
-**上傳前請先讀一次 RoyalRoad 目前的 AI 政策**（Rules / Content Policy 頁面），
-確認是否需要在建檔時勾選 AI 相關選項或在簡介中揭露。
+| 你的做法 | 需要的標籤 |
+|---|---|
+| 你自己從頭讀過英文版、確認語氣與笑點正確 | **不需要任何 AI 標籤** |
+| 直接上傳沒讀過 | 必須標 **AI-Assisted** |
 
-老實揭露最多是被歸類，隱瞞被抓到是**直接砍帳號**。不值得賭。
+原文是你 100% 手寫的，翻譯有人（你）逐句過目——完全落在「無需標籤」那一格。
+
+**唯一的要求是你真的要讀過。** 上傳前把英文版看一遍，順便確認語氣對不對，
+不對的地方直接改——那本來就該做，跟 AI 政策無關。
+
+註：該政策頁面標註為 dynamic policy，發布於 2023-06 後仍可能調整。
+建檔頁面實際看到的選項若與此不符，以網站當下為準。
 
 ---
 
