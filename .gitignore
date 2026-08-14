@@ -1,0 +1,21 @@
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# 編輯器
+*.swp
+*~
+.vscode/
+.idea/
+
+# 暫存與匯出
+/tmp/
+/build/
+/export/
+*.tmp
+*.bak
+~$*.docx
