@@ -31,6 +31,21 @@
 
 ---
 
+## 下載全文
+
+每次章節更新後自動重建，以下連結永遠是最新的完整版本：
+
+| 格式 | 適合 | 下載 |
+|---|---|---|
+| **EPUB** | 手機／電子書閱讀器（Apple Books、Moon+ Reader、Kobo…） | [劍人.epub](https://github.com/ruindorm/jianren/releases/download/latest/劍人.epub) |
+| **TXT** | 純文字，任何裝置都能開 | [劍人-全文.txt](https://github.com/ruindorm/jianren/releases/download/latest/劍人-全文.txt) |
+| **Markdown** | 單一檔案，保留格式 | [劍人-全文.md](https://github.com/ruindorm/jianren/releases/download/latest/劍人-全文.md) |
+| **分章 TXT** | 一章一檔，方便轉貼 | [劍人-分章txt.zip](https://github.com/ruindorm/jianren/releases/download/latest/劍人-分章txt.zip) |
+
+[→ 所有版本](https://github.com/ruindorm/jianren/releases)
+
+---
+
 ## 設定資料
 
 - [角色設定](./docs/角色設定.md) — 誰是誰、稱呼與排行
