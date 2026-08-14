@@ -1,0 +1,40 @@
+name: 🔤 錯字・標點回報
+description: 抓到錯字、漏字、標點怪怪的
+title: "[錯字] "
+labels: ["錯字"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝你幫忙抓錯！一次可以回報多處，不用分開開。
+
+  - type: input
+    id: chapter
+    attributes:
+      label: 哪一章
+      placeholder: 例如：第九章 You Bitch
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 錯在哪裡
+      description: 把原句貼上來，並說明應該是什麼。有多處就一行一個。
+      placeholder: |
+        原文：龍傲天拿起佩劍隨手擋掉劍氣
+        應為：這裡的「佩劍」應該是「鏡像劍」，龍傲天手上拿的是鏡像
+
+        原文：狂風大做
+        應為：狂風大作
+      render: text
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 確認一下
+      options:
+        - label: 我知道「尿性」「辣死賴」「優閉取」「中離」「裝逼」是故意的，不是錯字
+          required: false

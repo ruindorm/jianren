@@ -1,0 +1,43 @@
+name: 🧩 設定衝突・劇情問題
+description: 前後矛盾、規則說不通、伏筆好像忘了收
+title: "[設定] "
+labels: ["設定衝突"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        這類回報最有價值，請務必開。
+        開之前可以先看一下 [劍關規則](https://ruindorm.github.io/jianren/world.html)
+        與 [伏筆追蹤](https://ruindorm.github.io/jianren/foreshadowing.html)——
+        有些線是故意留著還沒收的。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 問題類型
+      options:
+        - 前後矛盾（同一件事兩處說法不同）
+        - 規則說不通（劍關機制邏輯有洞）
+        - 稱呼／排行不對
+        - 伏筆好像被忘記了
+        - 時間線對不上
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 說明
+      description: 請盡量指出是哪幾章之間對不上。
+      placeholder: |
+        第七章說大師兄被擊飛後「倒地不起」，
+        但第九章他馬上就能對話並盤坐調息，
+        中間沒有交代他怎麼恢復的。
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 你覺得怎麼處理比較好（選填）

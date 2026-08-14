@@ -1,0 +1,46 @@
+name: 💬 讀後感・吐槽・許願
+description: 想講什麼都可以，罵角色也歡迎
+title: "[閒聊] "
+labels: ["讀者回饋"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        沒有格式限制，想到什麼寫什麼。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 想聊什麼
+      options:
+        - 純粹想吐槽某個角色
+        - 哪一段最好笑／最無聊
+        - 猜劇情（歡迎猜，猜中不會告訴你）
+        - 許願（想看誰登場、想看什麼展開）
+        - 節奏、篇幅、閱讀體驗的建議
+        - 網站或下載檔有問題
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: 內容
+    validations:
+      required: true
+
+  - type: dropdown
+    id: fav
+    attributes:
+      label: 目前最喜歡誰（選填）
+      options:
+        - ""
+        - 男主角（吾名）
+        - 佩劍
+        - 小師妹
+        - 大師兄　秦飛羽
+        - 師父
+        - 門僮
+        - 龍傲天
+        - 那個沒登場的二師兄

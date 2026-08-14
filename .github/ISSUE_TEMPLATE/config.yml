@@ -1,0 +1,13 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 線上閱讀
+    url: https://ruindorm.github.io/jianren/
+    about: 有目錄、上下頁、深色模式，手機也好讀
+
+  - name: 📥 下載 EPUB / TXT
+    url: https://github.com/ruindorm/jianren/releases/tag/latest
+    about: 每次更新後自動重建，永遠是最新版
+
+  - name: ⚖️ 授權・商業合作洽談
+    url: https://ruindorm.github.io/jianren/license-notice.html
+    about: 改編、翻譯、有聲書、影視、商業轉載請先看這裡，再來信 pftmax@gmail.com
