@@ -98,6 +98,13 @@ build_lang() {
   sed -i "s#(../LICENSE)#($REPO_URL/blob/main/LICENSE)#g" "$SRC"/*.md
 
   # ---- 首頁 ----
+  # 封面（mdBook 會把 src 裡的非 md 檔一起複製到輸出）
+  case "$lang" in
+    en) cp assets/cover-en.jpg "$SRC/cover.jpg" ;;
+    *)  cp assets/cover-zh.jpg "$SRC/cover.jpg" ;;
+  esac
+  local cover_img='<img class="jr-cover" src="cover.jpg" alt="cover">'
+
   local dl_base="$REPO_URL/releases/download/latest"
   local ep tx md zp
   case "$lang" in
@@ -111,6 +118,7 @@ build_lang() {
 # Bastard Blade
 
 <div class="jr-hero">
+$cover_img
 <div class="jr-tagline">Slay the bastards. My sword is for picking up girls.</div>
 </div>
 
@@ -172,6 +180,7 @@ EOF
 # $T
 
 <div class="jr-hero">
+$cover_img
 <div class="jr-tagline">$TAG</div>
 </div>
 

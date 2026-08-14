@@ -29,21 +29,11 @@ for f in $(ls i18n/en/*.md | sort); do
   echo "    ${num}-${slug}.html  ← $title"
 done
 
-echo "==> 封面 400x600"
-command -v magick >/dev/null 2>&1 && IM=magick || IM=convert
-FONT="$(fc-match -f '%{file}' 'DejaVu Serif:style=Bold' 2>/dev/null || true)"
-[ -f "$FONT" ] || FONT="$(fc-match -f '%{file}' ':weight=bold' 2>/dev/null || true)"
-if [ -f "$FONT" ] && $IM -size 400x600 gradient:'#161622-#2b2438' \
-    -font "$FONT" \
-    -fill '#e9dfc4' -pointsize 54 -gravity north -annotate +0+150 'BASTARD' \
-    -fill '#e9dfc4' -pointsize 54 -annotate +0+215 'BLADE' \
-    -fill '#9b93b5' -pointsize 15 -annotate +0+320 'My sword is for picking up girls.' \
-    -fill '#6f6885' -pointsize 16 -gravity south -annotate +0+50 'YANG HOU' \
-    "$OUT/cover-400x600.png" 2>/dev/null; then
-  echo "    cover-400x600.png"
-else
-  echo "    封面略過"
-fi
+echo "==> 封面"
+cp assets/cover-en-400x600.jpg "$OUT/cover-400x600.jpg"
+cp assets/cover-en.jpg         "$OUT/cover-full.jpg"
+echo "    cover-400x600.jpg（RoyalRoad 用）"
+echo "    cover-full.jpg（1360x2048 原尺寸備用）"
 
 echo "==> 建檔欄位稿"
 cat > "$OUT/00-FICTION-SETUP.md" <<'EOF'
@@ -89,8 +79,8 @@ https://ruindorm.github.io/jianren/
 
 ## Cover
 
-上傳 `cover-400x600.png`（RoyalRoad 建議 400×600）。
-這是程式生成的暫代封面 — 有正式美術稿請直接換掉。
+上傳 `cover-400x600.jpg`（RoyalRoad 建議 400×600）。
+另附 `cover-full.jpg`（1360×2048），需要大圖的地方用這張。
 
 ---
 

@@ -25,7 +25,9 @@ to_hans() {
   else opencc -c t2s.json -i "$1" -o "$2"; fi
 }
 
-make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級
+# 封面用 assets/ 裡的正式美術稿；找不到才退回程式生成
+make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級 $5=來源檔
+  if [ -n "${5:-}" ] && [ -f "$5" ]; then cp "$5" "$1"; return 0; fi
   command -v magick >/dev/null 2>&1 && IM=magick || IM=convert
   command -v $IM >/dev/null 2>&1 || return 1
   local FONT
@@ -41,7 +43,7 @@ make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級
 }
 
 build_lang() {
-  local lang="$1" src_dir="$2" slug="$3" title="$4" tagline="$5" cover_size="$6" rights="$7" front="$8"
+  local lang="$1" src_dir="$2" slug="$3" title="$4" tagline="$5" cover_size="$6" rights="$7" front="$8" cover_src="${9:-}"
   echo
   echo "############ $lang ############"
   local W="$OUT/.work-$lang"
@@ -69,8 +71,8 @@ publisher: https://github.com/ruindorm/jianren
 EOF
 
   local COVER=()
-  if make_cover "$W/cover.png" "$title" "$tagline" "$cover_size" 2>/dev/null; then
-    COVER=(--epub-cover-image="$W/cover.png"); echo "    封面 ✓"
+  if make_cover "$W/cover.img" "$title" "$tagline" "$cover_size" "$cover_src" 2>/dev/null; then
+    COVER=(--epub-cover-image="$W/cover.img"); echo "    封面 ✓"
   else
     echo "    封面略過"
   fi
@@ -112,13 +114,13 @@ No commercial use, no derivative works (CC BY-NC-ND 4.0).
 Transcreated from the Chinese original 《劍人》.'
 
 build_lang zh-Hant src     jianren       '劍人' '降伏賤人，我的劍，是用來把妹的' 300 \
-  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_HANT"
+  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_HANT" assets/cover-zh.jpg
 
 build_lang zh-Hans src     jianren-hans  '剑人' '降伏贱人，我的剑，是用来把妹的' 300 \
-  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$(echo "$FRONT_HANT" | sed 's/免費閱讀/免费阅读/; s/轉載請標示作者與出處，禁止商業使用與改作/转载请标示作者与出处，禁止商业使用与改作/; s/本作品/本作品/; s/原文/原文/')"
+  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$(echo "$FRONT_HANT" | sed 's/免費閱讀/免费阅读/; s/轉載請標示作者與出處，禁止商業使用與改作/转载请标示作者与出处，禁止商业使用与改作/')" assets/cover-zh.jpg
 
 build_lang en      i18n/en bastard-blade 'BASTARD BLADE' 'Slay the bastards. My sword is for picking up girls.' 150 \
-  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_EN"
+  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_EN" assets/cover-en.jpg
 
 echo
 echo "完成："

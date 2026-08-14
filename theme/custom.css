@@ -111,6 +111,15 @@
   opacity: 0.75;
 }
 
+.jr-cover {
+  display: block;
+  width: min(300px, 70%);
+  height: auto;
+  margin: 0 auto 1.6em;
+  border-radius: 6px;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.45);
+}
+
 @media (max-width: 700px) {
   .content { font-size: 1.02rem; line-height: 1.95; }
   .content blockquote p { letter-spacing: 0.2em; }
