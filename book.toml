@@ -1,0 +1,25 @@
+[book]
+title = "劍人"
+authors = ["Yang Hou"]
+description = "一部修真吐槽喜劇。男主角有一把嘴很賤的 AI 佩劍。"
+language = "zh-TW"
+src = "book-src"
+
+[build]
+build-dir = "site"
+create-missing = false
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+no-section-label = true
+git-repository-url = "https://github.com/ruindorm/jianren"
+git-repository-icon = "fa-github"
+additional-css = ["theme/custom.css"]
+
+[output.html.print]
+enable = true
+
+[output.html.fold]
+enable = true
+level = 1

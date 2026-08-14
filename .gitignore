@@ -19,3 +19,8 @@ $RECYCLE.BIN/
 *.tmp
 *.bak
 ~$*.docx
+
+# 建置產物
+/build/
+/site/
+/book-src/
