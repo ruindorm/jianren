@@ -23,4 +23,4 @@ $RECYCLE.BIN/
 # 建置產物
 /build/
 /site/
-/book-src/
+/book-src-*/

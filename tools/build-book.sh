@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# 從 src/*.md 產生可下載的成書檔案。
-# 產物放在 build/：EPUB、單檔 Markdown、純文字 TXT。
+# 產生三語可下載成書：EPUB、單檔 Markdown、純文字 TXT、分章 TXT。
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -8,13 +7,9 @@ cd "$ROOT"
 
 OUT=build
 rm -rf "$OUT"
-mkdir -p "$OUT/chapters"
+mkdir -p "$OUT"
 
-echo "==> 準備章節（移除頁尾導覽與版權列）"
-for f in src/*.md; do
-  base="$(basename "$f")"
-  # 章節檔尾端是「--- / 上一章·目錄·下一章 / 版權<sub>」，
-  # 成書時不需要，砍掉最後一條水平線之後的所有內容。
+strip_footer() {
   awk '
     { line[NR] = $0 }
     END {
@@ -22,75 +17,109 @@ for f in src/*.md; do
       for (i = NR; i >= 1; i--) if (line[i] == "---") { cut = i; break }
       for (i = 1; i < cut; i++) print line[i]
     }
-  ' "$f" | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' > "$OUT/chapters/$base"
-  echo "    $base"
-done
+  ' "$1"
+}
 
-echo "==> 產生封面"
-COVER_ARG=()
-if command -v magick >/dev/null 2>&1; then IM=magick
-elif command -v convert >/dev/null 2>&1; then IM=convert
-else IM=""; fi
+to_hans() {
+  if opencc -c tw2sp.json -i "$1" -o "$2" 2>/dev/null; then :
+  else opencc -c t2s.json -i "$1" -o "$2"; fi
+}
 
-if [ -n "$IM" ]; then
+make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級
+  command -v magick >/dev/null 2>&1 && IM=magick || IM=convert
+  command -v $IM >/dev/null 2>&1 || return 1
+  local FONT
   FONT="$(fc-match -f '%{file}' 'Noto Serif CJK TC:style=Bold' 2>/dev/null || true)"
   [ -f "$FONT" ] || FONT="$(fc-match -f '%{file}' ':lang=zh-tw:weight=bold' 2>/dev/null || true)"
-  [ -f "$FONT" ] || FONT="$(fc-match -f '%{file}' ':lang=zh-tw' 2>/dev/null || true)"
-  if [ -n "$FONT" ] && [ -f "$FONT" ]; then
-    echo "    字型：$FONT"
-    if $IM -size 1200x1800 gradient:'#161622-#2b2438' \
-        -font "$FONT" \
-        -fill '#e9dfc4' -pointsize 300 -gravity north -annotate +0+420 '劍人' \
-        -fill '#9b93b5' -pointsize 46 -annotate +0+880 '降伏賤人，我的劍，是用來把妹的' \
-        -fill '#6f6885' -pointsize 40 -gravity south -annotate +0+180 'Yang Hou' \
-        "$OUT/cover.png"; then
-      COVER_ARG=(--epub-cover-image="$OUT/cover.png")
-      echo "    build/cover.png"
+  [ -f "$FONT" ] || return 1
+  $IM -size 1200x1800 gradient:'#161622-#2b2438' \
+    -font "$FONT" \
+    -fill '#e9dfc4' -pointsize "$4" -gravity north -annotate +0+420 "$2" \
+    -fill '#9b93b5' -pointsize 44 -annotate +0+880 "$3" \
+    -fill '#6f6885' -pointsize 40 -gravity south -annotate +0+180 'Yang Hou' \
+    "$1"
+}
+
+build_lang() {
+  local lang="$1" src_dir="$2" slug="$3" title="$4" tagline="$5" cover_size="$6" rights="$7" front="$8"
+  echo
+  echo "############ $lang ############"
+  local W="$OUT/.work-$lang"
+  rm -rf "$W"; mkdir -p "$W"
+
+  local f
+  for f in $(ls "$src_dir"/*.md | sort); do
+    if [ "$lang" = zh-Hans ]; then
+      strip_footer "$f" > "$W/.t"; to_hans "$W/.t" "$W/$(basename "$f")"; rm -f "$W/.t"
+    else
+      strip_footer "$f" > "$W/$(basename "$f")"
     fi
-  else
-    echo "    找不到中文字型"
-  fi
-else
-  echo "    找不到 ImageMagick"
-fi
-[ ${#COVER_ARG[@]} -eq 0 ] && echo "    （封面略過，EPUB 仍會正常產生）"
-
-echo "==> EPUB"
-pandoc "$OUT"/chapters/*.md \
-  --metadata-file=tools/metadata.yaml \
-  --toc --toc-depth=1 \
-  --split-level=1 \
-  "${COVER_ARG[@]}" \
-  -o "$OUT/jianren.epub"
-
-echo "==> 單檔 Markdown"
-{
-  echo "# 劍人"
-  echo
-  echo "> 降伏賤人，我的劍，是用來把妹的"
-  echo
-  echo "作者：Yang Hou　原文：https://github.com/ruindorm/jianren"
-  echo
-  echo "本作品免費閱讀。轉載請標示作者與出處，禁止商業使用與改作（CC BY-NC-ND 4.0）。"
-  echo
-  for f in "$OUT"/chapters/*.md; do
-    cat "$f"
-    echo
-    echo
   done
-} > "$OUT/jianren-full.md"
+  echo "    章節 $(ls "$W"/*.md | wc -l) 篇"
 
-echo "==> 純文字 TXT"
-pandoc "$OUT/jianren-full.md" -t plain --wrap=none -o "$OUT/jianren-full.txt"
+  cat > "$W/metadata.yaml" <<EOF
+---
+title: "$title"
+subtitle: "$tagline"
+author: Yang Hou
+language: $lang
+rights: "$rights"
+publisher: https://github.com/ruindorm/jianren
+---
+EOF
 
-echo "==> 各章純文字（方便貼到其他平台）"
-mkdir -p "$OUT/txt"
-for f in "$OUT"/chapters/*.md; do
-  pandoc "$f" -t plain --wrap=none -o "$OUT/txt/$(basename "${f%.md}").txt"
-done
-(cd "$OUT" && zip -qr jianren-chapters-txt.zip txt)
-rm -rf "$OUT/txt" "$OUT/chapters"
+  local COVER=()
+  if make_cover "$W/cover.png" "$title" "$tagline" "$cover_size" 2>/dev/null; then
+    COVER=(--epub-cover-image="$W/cover.png"); echo "    封面 ✓"
+  else
+    echo "    封面略過"
+  fi
+
+  echo "    EPUB"
+  pandoc "$W"/*.md --metadata-file="$W/metadata.yaml" \
+    --toc --toc-depth=1 --split-level=1 "${COVER[@]}" \
+    -o "$OUT/$slug.epub"
+
+  echo "    Markdown"
+  {
+    echo "# $title"; echo
+    echo "> $tagline"; echo
+    printf '%s\n\n' "$front"
+    for f in "$W"/*.md; do [ "$(basename "$f")" = metadata.yaml ] && continue; cat "$f"; echo; echo; done
+  } > "$OUT/$slug-full.md"
+
+  echo "    TXT"
+  pandoc "$OUT/$slug-full.md" -t plain --wrap=none -o "$OUT/$slug-full.txt"
+
+  echo "    分章 TXT"
+  mkdir -p "$W/txt"
+  for f in "$W"/*.md; do
+    pandoc "$f" -t plain --wrap=none -o "$W/txt/$(basename "${f%.md}").txt"
+  done
+  (cd "$W" && zip -qr "../$slug-chapters-txt.zip" txt)
+  rm -rf "$W"
+}
+
+FRONT_HANT='作者：Yang Hou　原文：https://github.com/ruindorm/jianren
+
+本作品免費閱讀。轉載請標示作者與出處，禁止商業使用與改作（CC BY-NC-ND 4.0）。'
+
+FRONT_EN='By Yang Hou — https://github.com/ruindorm/jianren
+
+Free to read. Credit the author and link back when reposting.
+No commercial use, no derivative works (CC BY-NC-ND 4.0).
+
+Transcreated from the Chinese original 《劍人》.'
+
+build_lang zh-Hant src     jianren       '劍人' '降伏賤人，我的劍，是用來把妹的' 300 \
+  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_HANT"
+
+build_lang zh-Hans src     jianren-hans  '剑人' '降伏贱人，我的剑，是用来把妹的' 300 \
+  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$(echo "$FRONT_HANT" | sed 's/免費閱讀/免费阅读/; s/轉載請標示作者與出處，禁止商業使用與改作/转载请标示作者与出处，禁止商业使用与改作/; s/本作品/本作品/; s/原文/原文/')"
+
+build_lang en      i18n/en bastard-blade 'BASTARD BLADE' 'Slay the bastards. My sword is for picking up girls.' 150 \
+  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_EN"
 
 echo
 echo "完成："
-ls -lh "$OUT"
+ls -lh "$OUT" | grep -v '^total'

@@ -8,7 +8,7 @@
 
 ## 開始閱讀
 
-### **[→ 線上閱讀（推薦）](https://ruindorm.github.io/jianren/)**
+### **[→ 線上閱讀（推薦）](https://ruindorm.github.io/jianren/)**　·　[简体](https://ruindorm.github.io/jianren/zh-Hans/)　·　[English](https://ruindorm.github.io/jianren/en/)
 
 有目錄、上下頁、深色模式，手機也好讀。
 
