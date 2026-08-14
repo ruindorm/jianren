@@ -34,27 +34,34 @@ else IM=""; fi
 
 if [ -n "$IM" ]; then
   FONT="$(fc-match -f '%{file}' 'Noto Serif CJK TC:style=Bold' 2>/dev/null || true)"
+  [ -f "$FONT" ] || FONT="$(fc-match -f '%{file}' ':lang=zh-tw:weight=bold' 2>/dev/null || true)"
+  [ -f "$FONT" ] || FONT="$(fc-match -f '%{file}' ':lang=zh-tw' 2>/dev/null || true)"
   if [ -n "$FONT" ] && [ -f "$FONT" ]; then
+    echo "    字型：$FONT"
     if $IM -size 1200x1800 gradient:'#161622-#2b2438' \
         -font "$FONT" \
         -fill '#e9dfc4' -pointsize 300 -gravity north -annotate +0+420 '劍人' \
         -fill '#9b93b5' -pointsize 46 -annotate +0+880 '降伏賤人，我的劍，是用來把妹的' \
         -fill '#6f6885' -pointsize 40 -gravity south -annotate +0+180 'Yang Hou' \
-        "$OUT/cover.png" 2>/dev/null; then
+        "$OUT/cover.png"; then
       COVER_ARG=(--epub-cover-image="$OUT/cover.png")
       echo "    build/cover.png"
     fi
+  else
+    echo "    找不到中文字型"
   fi
+else
+  echo "    找不到 ImageMagick"
 fi
-[ ${#COVER_ARG[@]} -eq 0 ] && echo "    （略過：沒有可用的字型或 ImageMagick）"
+[ ${#COVER_ARG[@]} -eq 0 ] && echo "    （封面略過，EPUB 仍會正常產生）"
 
 echo "==> EPUB"
 pandoc "$OUT"/chapters/*.md \
   --metadata-file=tools/metadata.yaml \
   --toc --toc-depth=1 \
-  --epub-chapter-level=1 \
+  --split-level=1 \
   "${COVER_ARG[@]}" \
-  -o "$OUT/劍人.epub"
+  -o "$OUT/jianren.epub"
 
 echo "==> 單檔 Markdown"
 {
@@ -71,17 +78,17 @@ echo "==> 單檔 Markdown"
     echo
     echo
   done
-} > "$OUT/劍人-全文.md"
+} > "$OUT/jianren-full.md"
 
 echo "==> 純文字 TXT"
-pandoc "$OUT/劍人-全文.md" -t plain --wrap=none -o "$OUT/劍人-全文.txt"
+pandoc "$OUT/jianren-full.md" -t plain --wrap=none -o "$OUT/jianren-full.txt"
 
 echo "==> 各章純文字（方便貼到其他平台）"
 mkdir -p "$OUT/txt"
 for f in "$OUT"/chapters/*.md; do
   pandoc "$f" -t plain --wrap=none -o "$OUT/txt/$(basename "${f%.md}").txt"
 done
-(cd "$OUT" && zip -qr 劍人-分章txt.zip txt)
+(cd "$OUT" && zip -qr jianren-chapters-txt.zip txt)
 rm -rf "$OUT/txt" "$OUT/chapters"
 
 echo

@@ -37,10 +37,10 @@
 
 | 格式 | 適合 | 下載 |
 |---|---|---|
-| **EPUB** | 手機／電子書閱讀器（Apple Books、Moon+ Reader、Kobo…） | [劍人.epub](https://github.com/ruindorm/jianren/releases/download/latest/劍人.epub) |
-| **TXT** | 純文字，任何裝置都能開 | [劍人-全文.txt](https://github.com/ruindorm/jianren/releases/download/latest/劍人-全文.txt) |
-| **Markdown** | 單一檔案，保留格式 | [劍人-全文.md](https://github.com/ruindorm/jianren/releases/download/latest/劍人-全文.md) |
-| **分章 TXT** | 一章一檔，方便轉貼 | [劍人-分章txt.zip](https://github.com/ruindorm/jianren/releases/download/latest/劍人-分章txt.zip) |
+| **EPUB** | 手機／電子書閱讀器（Apple Books、Moon+ Reader、Kobo…） | [jianren.epub](https://github.com/ruindorm/jianren/releases/download/latest/jianren.epub) |
+| **TXT** | 純文字，任何裝置都能開 | [jianren-full.txt](https://github.com/ruindorm/jianren/releases/download/latest/jianren-full.txt) |
+| **Markdown** | 單一檔案，保留格式 | [jianren-full.md](https://github.com/ruindorm/jianren/releases/download/latest/jianren-full.md) |
+| **分章 TXT** | 一章一檔，方便轉貼 | [jianren-chapters-txt.zip](https://github.com/ruindorm/jianren/releases/download/latest/jianren-chapters-txt.zip) |
 
 [→ 所有版本](https://github.com/ruindorm/jianren/releases)
 

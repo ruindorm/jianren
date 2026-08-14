@@ -27,7 +27,7 @@ jobs:
           wget -q "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
           sudo dpkg -i "pandoc-${PANDOC_VERSION}-1-amd64.deb"
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-noto-cjk zip
+          sudo apt-get install -y -qq fonts-noto-cjk imagemagick zip
           pandoc --version | head -1
 
       - name: 建置
@@ -47,7 +47,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release upload "${GITHUB_REF_NAME}" \
-            "build/劍人.epub" "build/劍人-全文.md" "build/劍人-全文.txt" "build/劍人-分章txt.zip" \
+            build/jianren.epub build/jianren-full.md build/jianren-full.txt build/jianren-chapters-txt.zip \
             --clobber
 
       # 推到 main → 更新固定的 latest 下載點
@@ -62,5 +62,5 @@ jobs:
               --title "最新全文（隨更新自動重建）" \
               --notes $'本 Release 的檔案由 GitHub Actions 在每次章節更新後自動重建，永遠是最新的完整版本。\n\n正式分卷版本請見其他 Release。\n\n《劍人》© 2026 Yang Hou・CC BY-NC-ND 4.0'
           gh release upload latest \
-            "build/劍人.epub" "build/劍人-全文.md" "build/劍人-全文.txt" "build/劍人-分章txt.zip" \
+            build/jianren.epub build/jianren-full.md build/jianren-full.txt build/jianren-chapters-txt.zip \
             --clobber
