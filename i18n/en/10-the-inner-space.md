@@ -1,6 +1,6 @@
 # Chapter Ten — The Inner Space
 
-> **〔The Inner Space〕**
+> **[The Inner Space]**
 
 **Long Aotian's consciousness** (hereafter "Long Aotian"): Hmph! A lunatic who talks to himself!
 
@@ -18,7 +18,7 @@
 
 **My Name**: Anger management problems too, I see! Need more warm-up?
 
-> **〔Inside the Sword Gate〕**
+> **[Inside the Sword Gate]**
 
 **Junior Sister**: Senior Brother, the barriers are shifting fast!
 

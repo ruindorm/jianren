@@ -1,16 +1,16 @@
 # Chapter Nine — You Bitch
 
-> **〔The Outer Space〕**
+> **[The Outer Space]**
 
 **My Name (Sword Edition)**: You bitch!
 
-**Everyone**: ……？？？？？
+**Everyone**: ……?????
 
 **Long Aotian**: (eyes murderous, gripping the mirrored blade)
 
 **My Name (Sword Edition)**: Heh heh… (sword-finger raised) A lance of sword-qi shot straight at Long Aotian's face.
 
-> **〔Elsewhere〕**
+> **[Elsewhere]**
 
 **Gate Boy**: Master, what does "you bitch" mean? Didn't you say the consciousness gets locked inside the sword? How can Third Senior Brother talk?
 
@@ -24,7 +24,7 @@
 
 **Master**: (patting Gate Boy on the head) Hahaha…
 
-> **〔The Outer Space〕**
+> **[The Outer Space]**
 
 The duel raged on.
 

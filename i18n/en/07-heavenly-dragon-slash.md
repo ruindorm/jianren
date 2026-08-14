@@ -1,6 +1,6 @@
 # Chapter Seven — Heavenly Dragon Slash
 
-> **〔The Outer Space〕**
+> **[The Outer Space]**
 
 **Junior Sister**: Ah—!
 

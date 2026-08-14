@@ -22,7 +22,7 @@ Long Aotian raised the mirrored Skyplume to block, but the impact drove him back
 
 Long Aotian's eyes turned murderous, every thrust aimed at Qin Feiyu's vitals. It seemed he meant to kill the man first, and destroy the Skyplume Sword afterwards.
 
-> **〔Elsewhere〕**
+> **[Elsewhere]**
 
 **Gate Boy**: Wow! What an incredible sight — it's my first time seeing a Sword Gate open!
 
@@ -40,7 +40,7 @@ Long Aotian's eyes turned murderous, every thrust aimed at Qin Feiyu's vitals. I
 
 **Master**: Quite the opposite. Your senior brother's consciousness is locked in fierce battle with his opponent, in the space within!
 
-> **〔The Inner Space〕**
+> **[The Inner Space]**
 
 Qin Feiyu settled into a fighting stance. Long Aotian stood with open contempt.
 
@@ -58,7 +58,7 @@ Qin Feiyu settled into a fighting stance. Long Aotian stood with open contempt.
 
 **Long Aotian**: (coldly) (And there it is.)
 
-> **〔Elsewhere〕**
+> **[Elsewhere]**
 
 **Gate Boy**: Master, if we can't see the inner space, how is the winner decided?
 

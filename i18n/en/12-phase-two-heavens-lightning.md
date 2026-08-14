@@ -10,7 +10,7 @@ Powered by borrowed strength, the palm carried appalling force. My Name sank his
 
 Both men had their eyes closed. The flash and thunder of the heavenly lightning caught My Name between the assault without and the assault within, and the strain was brutal…
 
-> **〔The Outer Space〕**
+> **[The Outer Space]**
 
 Between the two pillars, the final exchange was about to land—
 

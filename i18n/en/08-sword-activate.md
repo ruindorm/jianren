@@ -6,11 +6,11 @@
 
 **Junior Sister**: Senior Brother! Be careful!
 
-**Long Aotian**: ？？？
+**Long Aotian**: ???
 
-**Gate Envoy**: ？？？？
+**Gate Envoy**: ????
 
-**Senior Brother, from the ground**: Uh… ？？？？
+**Senior Brother, from the ground**: Uh… ????
 
 **Male Lead**: (face burning scarlet, making a heart with both hands at his sword) **MY SWORD, ACTIVATE!**
 
