@@ -71,8 +71,8 @@ publisher: https://github.com/ruindorm/jianren
 EOF
 
   local COVER=()
-  if make_cover "$W/cover.img" "$title" "$tagline" "$cover_size" "$cover_src" 2>/dev/null; then
-    COVER=(--epub-cover-image="$W/cover.img"); echo "    封面 ✓"
+  if make_cover "$W/cover.jpg" "$title" "$tagline" "$cover_size" "$cover_src" 2>/dev/null; then
+    COVER=(--epub-cover-image="$W/cover.jpg"); echo "    封面 ✓"
   else
     echo "    封面略過"
   fi
