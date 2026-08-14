@@ -14,6 +14,10 @@
 
 或直接在 GitHub 上看：**[從楔子開始](./src/00-楔子.md)**　|　**[章節目錄](./SUMMARY.md)**
 
+> **要把整本丟給 AI 或其他工具讀？** 給它這一個網址就好：
+> **`https://ruindorm.github.io/jianren/full.txt`**
+> 純文字全文，免登入、免 JavaScript。詳見[給 AI 與自動化工具](#給-ai-與自動化工具)。
+
 | | 章節 | |
 |---|---|---|
 | 00 | [楔子](./src/00-楔子.md) | 世界上最賤的人是誰？ |
@@ -56,6 +60,33 @@
 - [世界觀：劍關規則](./docs/世界觀-劍關規則.md) — 表關／裡關、質押、二階段天雷
 - [伏筆追蹤](./docs/伏筆追蹤.md) — 已埋下、尚未回收的線
 - [圖片生成](./docs/圖片生成.md) — 封面與插圖的產製流程、參數原則、成本表
+
+---
+
+## 給 AI 與自動化工具
+
+把 GitHub 的檔案網址（`github.com/…/blob/main/src/01-渡劫大殿外.md`）貼給 AI，常常會失敗，原因有三個，都跟權限無關——本作品全程公開：
+
+1. 不少 AI 的抓取政策直接擋掉 `github.com` 整個網域（回報 `LIVE_CRAWL_POLICY_BLOCKED`）。
+2. GitHub 的檔案瀏覽頁靠 JavaScript 渲染，只抓 HTML 的工具讀不到正文。
+3. 中文檔名會被編碼成 `01-%E6%B8%A1%E5%8A%AB%E5%A4%A7%E6%AE%BF%E5%A4%96.md`，部分工具處理不了。
+
+閱讀網站上因此另外備了一組**純文字、免 JavaScript、路徑全 ASCII** 的入口：
+
+| 用途 | 網址 |
+|---|---|
+| **整本全文，一個檔** | https://ruindorm.github.io/jianren/full.txt |
+| 單章 | `https://ruindorm.github.io/jianren/txt/ch01.txt`（`ch00`–`ch13`） |
+| 設定集 | `characters.txt`、`world.txt`、`foreshadowing.txt`、`license-notice.txt`（同目錄） |
+| 機器可讀索引（[llms.txt 慣例](https://llmstxt.org/)） | https://ruindorm.github.io/jianren/llms.txt |
+| 網站地圖 | https://ruindorm.github.io/jianren/sitemap.xml |
+| 抓取規則 | https://ruindorm.github.io/jianren/robots.txt |
+
+簡體與英文把語言代碼加在中間即可，例如 `…/jianren/en/full.txt`、`…/jianren/zh-Hans/txt/ch01.txt`。
+
+這些檔案在每次章節更新後由 GitHub Actions 自動重建，內容與正文永遠同步。
+
+**授權提醒**：開放檢索不等於開放利用。本作品採 CC BY-NC-ND 4.0，可讀、可引用、可轉貼（須標示作者與出處），**不可商業使用、不可改作**。
 
 ---
 
