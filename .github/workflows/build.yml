@@ -28,11 +28,14 @@ jobs:
           wget -q "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
           sudo dpkg -i "pandoc-${PANDOC_VERSION}-1-amd64.deb"
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-noto-cjk imagemagick opencc zip
+          sudo apt-get install -y -qq fonts-noto-cjk fonts-dejavu imagemagick opencc zip
           pandoc --version | head -1
 
       - name: 建置
-        run: bash tools/build-book.sh
+        run: |
+          bash tools/build-book.sh
+          bash tools/build-royalroad.sh
+          (cd build && zip -qr royalroad-package.zip royalroad && rm -rf royalroad)
 
       - name: 上傳為 workflow 產物
         uses: actions/upload-artifact@v4
