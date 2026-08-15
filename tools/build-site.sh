@@ -95,7 +95,8 @@ build_lang() {
   for f in "$doc_dir"/*.md; do
     out="$(basename "$f" .md)"
     # 內部工作流程文件不上讀者網站
-    case "$out" in 圖片生成|純文字入口) continue ;; esac
+    # 伏筆追蹤是寫作用的對照表，內容即劇透，不上讀者網站
+    case "$out" in 圖片生成|純文字入口|伏筆追蹤) continue ;; esac
     case "$out" in
       角色設定) out=characters ;;
       世界觀-劍關規則) out=world ;;
@@ -192,7 +193,7 @@ EOF
     local CR='## 版權' CR1='**本作品免費公開閱讀，作者保留全部著作權。**'
     local CR2='可以：閱讀、分享連結、轉貼（須標示作者與出處）、引用評論' CR3='不可以：商業使用、改寫續寫、翻譯、改編、匿名搬運、冒名投稿'
     local CR4='詳見 [版權說明](license-notice.md)。想改編、翻譯或商業合作，歡迎來信 pftmax@gmail.com 洽談。'
-    local OTH='## 其他' OTH1='- [設定集：角色](characters.md)・[劍關規則](world.md)・[伏筆追蹤](foreshadowing.md)'
+    local OTH='## 其他' OTH1='- [設定集：角色](characters.md)・[劍關規則](world.md)'
     local OTH2="- [原始倉庫]($REPO_URL) — 修訂歷史、回報錯字"
     local OTH3="- [全文純文字檔]($SITE_URL/full.txt) — 一個網址拿到整本，適合丟給 AI 或其他工具讀"
     cat > "$SRC/index.md" <<EOF

@@ -29,7 +29,6 @@ Knows about the forced termination of a Sword Gate — and knows that *that cask
 - Calls Male Lead "baby"
 - Carries the handkerchief he gave her everywhere
 - Knows the Sword Gate rules cold, and recites them at the enemy in Chapter Four
-- **Foreshadowed identity**: the "young lady" the Dragonrealm Sect Master asks about
 
 ### Gate Boy
 The youngest disciple. Helps Master back to the hall, watches the Sword Gate from a distance. Calls Male Lead "Third Senior Brother" and Junior Sister "Senior Sister."
