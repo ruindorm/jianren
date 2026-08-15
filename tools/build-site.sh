@@ -95,7 +95,7 @@ build_lang() {
   for f in "$doc_dir"/*.md; do
     out="$(basename "$f" .md)"
     # 內部工作流程文件不上讀者網站
-    case "$out" in 圖片生成) continue ;; esac
+    case "$out" in 圖片生成|純文字入口) continue ;; esac
     case "$out" in
       角色設定) out=characters ;;
       世界觀-劍關規則) out=world ;;

@@ -1,5 +1,7 @@
 # 劍人
 
+<img src="./assets/cover-zh.jpg" alt="劍人" width="260" align="right">
+
 > 降伏賤人，我的劍，是用來把妹的。
 
 一部修真吐槽喜劇。男主角有一把嘴很賤的 AI 佩劍，全宗門都以為他走火入魔、整天自言自語——只有那把劍知道，他們正在為劍關決戰計算勝率。
@@ -13,10 +15,6 @@
 有目錄、上下頁、深色模式，手機也好讀。
 
 或直接在 GitHub 上看：**[從楔子開始](./src/00-楔子.md)**　|　**[章節目錄](./SUMMARY.md)**
-
-> **要把整本丟給 AI 或其他工具讀？** 給它這一個網址就好：
-> **`https://ruindorm.github.io/jianren/full.txt`**
-> 純文字全文，免登入、免 JavaScript。詳見[給 AI 與自動化工具](#給-ai-與自動化工具)。
 
 ### 第一卷　劍關
 
@@ -66,7 +64,7 @@
 | **Markdown** | 單一檔案，保留格式 | [jianren-full.md](https://github.com/ruindorm/jianren/releases/download/latest/jianren-full.md) |
 | **分章 TXT** | 一章一檔，方便轉貼 | [jianren-chapters-txt.zip](https://github.com/ruindorm/jianren/releases/download/latest/jianren-chapters-txt.zip) |
 
-[→ 所有版本](https://github.com/ruindorm/jianren/releases)
+[→ 所有版本](https://github.com/ruindorm/jianren/releases)　·　[→ 简体](https://ruindorm.github.io/jianren/zh-Hans/)　·　[→ English](https://ruindorm.github.io/jianren/en/)
 
 ---
 
@@ -75,56 +73,23 @@
 - [角色設定](./docs/角色設定.md) — 誰是誰、稱呼與排行
 - [世界觀：劍關規則](./docs/世界觀-劍關規則.md) — 表關／裡關、質押、二階段天雷
 - [伏筆追蹤](./docs/伏筆追蹤.md) — 已埋下、尚未回收的線
-- [圖片生成](./docs/圖片生成.md) — 封面與插圖的產製流程、參數原則、成本表
-
----
-
-## 給 AI 與自動化工具
-
-把 GitHub 的檔案網址（`github.com/…/blob/main/src/01-渡劫大殿外.md`）貼給 AI，常常會失敗，原因有三個，都跟權限無關——本作品全程公開：
-
-1. 不少 AI 的抓取政策直接擋掉 `github.com` 整個網域（回報 `LIVE_CRAWL_POLICY_BLOCKED`）。
-2. GitHub 的檔案瀏覽頁靠 JavaScript 渲染，只抓 HTML 的工具讀不到正文。
-3. 中文檔名會被編碼成 `01-%E6%B8%A1%E5%8A%AB%E5%A4%A7%E6%AE%BF%E5%A4%96.md`，部分工具處理不了。
-
-閱讀網站上因此另外備了一組**純文字、免 JavaScript、路徑全 ASCII** 的入口：
-
-| 用途 | 網址 |
-|---|---|
-| **整本全文，一個檔** | https://ruindorm.github.io/jianren/full.txt |
-| 單章 | `https://ruindorm.github.io/jianren/txt/ch01.txt`（`ch00`–`ch22`） |
-| 設定集 | `characters.txt`、`world.txt`、`foreshadowing.txt`、`license-notice.txt`（同目錄） |
-| 機器可讀索引（[llms.txt 慣例](https://llmstxt.org/)） | https://ruindorm.github.io/jianren/llms.txt |
-| 網站地圖 | https://ruindorm.github.io/jianren/sitemap.xml |
-| 抓取規則 | https://ruindorm.github.io/jianren/robots.txt |
-
-簡體與英文把語言代碼加在中間即可，例如 `…/jianren/en/full.txt`、`…/jianren/zh-Hans/txt/ch01.txt`。
-
-如果對方連 `github.io` 也擋，倉庫根目錄另外放了同樣的純文字全文，走 `raw` 網域：
-
-- https://raw.githubusercontent.com/ruindorm/jianren/main/full.txt
-- https://raw.githubusercontent.com/ruindorm/jianren/main/full-en.txt
-- https://raw.githubusercontent.com/ruindorm/jianren/main/full-zh-Hans.txt
-
-根目錄那三個 `full*.txt` 由 Actions 自動同步，**不要手動編輯**，正文請改 `src/`。
-
-這些檔案在每次章節更新後由 GitHub Actions 自動重建，內容與正文永遠同步。
-
-**授權提醒**：開放檢索不等於開放利用。本作品採 CC BY-NC-ND 4.0，可讀、可引用、可轉貼（須標示作者與出處），**不可商業使用、不可改作**。
+- [圖片生成](./docs/圖片生成.md) — 封面與插圖的產製流程
+- [純文字入口](./docs/純文字入口.md) — 給爬蟲與 AI 工具的端點
 
 ---
 
 ## 關於這個倉庫
 
-這裡是《劍人》的**創作主線**，用 Git 做版本控制：
+這裡是《劍人》的創作主線，用 Git 做版本控制。每次修訂都是一個 commit，發布到其他平台的版本以本倉庫為準。
 
 - `src/` — 正文，一章一個 Markdown 檔
-- `docs/` — 設定集，寫的時候用來對照，避免前後矛盾
-- `archive/` — 歷次原始稿，保留最初的手稿形態
-
-每次修訂都是一個 commit，改了哪一句、什麼時候改的、為什麼改，全部查得到。發布到其他平台的版本以本倉庫為準。
+- `docs/` — 設定集與製作文件
+- `assets/` — 封面
+- `archive/` — 歷次原始稿
 
 **回饋歡迎開 [Issue](../../issues)** — 抓錯字、指出設定衝突、或單純想吐槽某個角色，都可以。
+
+全文另有純文字與機器可讀端點，見 [純文字入口](./docs/純文字入口.md)。
 
 ---
 
