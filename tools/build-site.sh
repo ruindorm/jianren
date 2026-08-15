@@ -61,7 +61,9 @@ build_lang() {
   fi
 
   # ---- 章節 ----
-  local chapters="" i=0 f name t
+  # 第一卷為索引 0-13（楔子 + 第一～十三章），第十四章起為第二卷
+  local VOL2_START=14
+  local chapters="" chapters2="" i=0 f name t
   for f in $(ls "$src_dir"/*.md | sort); do
     name="$(printf 'ch%02d' "$i")"
     if [ "$lang" = zh-Hans ]; then
@@ -71,7 +73,11 @@ build_lang() {
     fi
     t="$(head -1 "$SRC/$name.md" | sed 's/^#\+[[:space:]]*//')"
     { echo; echo "$footer"; } >> "$SRC/$name.md"
-    chapters="${chapters}- [${t}](${name}.md)"$'\n'
+    if [ "$i" -lt "$VOL2_START" ]; then
+      chapters="${chapters}- [${t}](${name}.md)"$'\n'
+    else
+      chapters2="${chapters2}- [${t}](${name}.md)"$'\n'
+    fi
     i=$((i + 1))
   done
   echo "    章節 $i 篇"
@@ -235,17 +241,21 @@ EOF
   fi
 
   # ---- SUMMARY ----
-  local part_story part_docs home
+  local part_story part_story2 part_docs home
   case "$lang" in
-    en)      home='Bastard Blade'; part_story='Volume One — The Sword Gate'; part_docs='Reference' ;;
-    zh-Hans) home='剑人';          part_story='第一卷　剑关';                part_docs='设定集' ;;
-    *)       home='劍人';          part_story='第一卷　劍關';                part_docs='設定集' ;;
+    en)      home='Bastard Blade'
+             part_story='Volume One — The Sword Gate'
+             part_story2='Volume Two — Where the Casket Came From'
+             part_docs='Reference' ;;
+    zh-Hans) home='剑人'; part_story='第一卷　剑关'; part_story2='第二卷　剑匣的来历'; part_docs='设定集' ;;
+    *)       home='劍人'; part_story='第一卷　劍關'; part_story2='第二卷　劍匣的來歷'; part_docs='設定集' ;;
   esac
   {
     echo "# Summary"; echo
     echo "[$home](index.md)"; echo
     echo "# $part_story"; echo
     printf '%s' "$chapters"; echo
+    if [ -n "$chapters2" ]; then echo "# $part_story2"; echo; printf '%s' "$chapters2"; echo; fi
     echo "# $part_docs"; echo
     printf '%s' "$docs"
   } > "$SRC/SUMMARY.md"
