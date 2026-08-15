@@ -1,29 +1,31 @@
 # Characters
 
-> A reference sheet, kept so that forms of address and seniority stay consistent. Only information already stated in the text appears here.
+> A reference sheet, kept so that forms of address and seniority stay consistent.
+> **Only what the text actually states appears here.** Inferences and unwritten directions are left out.
 
 ## The Sect
 
 ### Master
-The sect head. Speaks slowly, strokes his beard constantly. Doesn't understand his disciples' modern slang ("no cap"), but holds that a cultivator must not cling to names.
+Addressed as "Master"; refers to himself as "this master." Strokes his beard.
+Doesn't understand his disciples' modern slang ("no cap", "you bitch"), but holds that a cultivator must not cling to names.
 
-Knows about the forced termination of a Sword Gate — and knows that *that casket is still in the world*.
+Recognises the casket the Dragonrealm Gate used — "So it does still exist… I never expected that casket to remain in the world."
 
 ### Senior Brother — Qin Feiyu
 - Sword: **Skyplume**
 - Techniques: Skyplume Strike, Twin Plume Strike
-- Convinced his third junior brother has suffered qi deviation, and keeps trying to "clear his meridians"
-- Is waiting for Master to finish teaching him the *Myriad Immortals Manual* before he'll risk a duel — a fact the Sword announces publicly
+- Convinced his junior brother has suffered qi deviation, and wants to "clear his meridians" with a sword
+- Is waiting for Master to finish teaching him the *Myriad Immortals Manual* before he'll have the confidence to beat his junior brother — a fact the Sword announces publicly
 
 ### Second Senior Brother
-**Has not appeared.** But he exists within Gate Boy's system of address, which is why Male Lead ranks third.
+**Has not appeared.** But Gate Boy calls Male Lead "Third Senior Brother," so this person exists in the seniority order.
 
 ### Third Senior Brother (Male Lead / "My Name")
-- Sword: **Sword** (that is its name — it doesn't have one)
+- Sword: **Sword** (the text simply calls it "the Sword"; it is given no other name)
 - Techniques: Sword Array, Sword Array 2 (Fractal)
-- The sect's designated qi-deviation patient, because he talks to his sword all day
-- Entry declaration: "My name: My Name! Sword: Sword!" — the activation command is his own configuration, and requires making a heart at the sword with both hands
-- Teaches Gate Boy English (Gate Boy learns "bitch")
+- The whole sect believes he has qi deviation because he mutters constantly — he is in fact talking to his sword
+- Entry declaration: "My name: My Name! Sword: Sword!"; the activation command is his own configuration, and requires making a heart at the sword with both hands
+- Gate Boy says "Third Senior Brother taught me" (what he learned was "bitch")
 
 ### Junior Sister
 - Calls Male Lead "baby"
@@ -31,23 +33,22 @@ Knows about the forced termination of a Sword Gate — and knows that *that cask
 - Knows the Sword Gate rules cold, and recites them at the enemy in Chapter Four
 
 ### Gate Boy
-The youngest disciple. Helps Master back to the hall, watches the Sword Gate from a distance. Calls Male Lead "Third Senior Brother" and Junior Sister "Senior Sister."
-
-Serves as the audience's proxy — most of the Sword Gate's rules are explained through his questions.
+A disciple. Helps Master back to the hall, watches the Sword Gate from a distance.
+Calls Male Lead "Third Senior Brother" and Junior Sister "Senior Sister."
 
 ## The Transcendent Realm Sect · Dragonrealm Gate
 
 ### Sect Master
-His real objective was never to win the Sword Gate. It was to **collect samples**.
+After raising the Proudheaven Sword and a second treasured blade on his sword-finger and striking them together, he says Male Lead's sword holds "some inexplicable animate force."
 
-After striking the two blades together, he detects "some inexplicable animate force" hidden inside Male Lead's sword.
+Long Aotian reports to him: "to gather as many samples for you as possible."
 
 His closing line: "It won't be much longer."
 
 ### Long Aotian
 - Sword: **Proudheaven**
 - Techniques: Heavenly Dragon Slash, Heavenly Dragon Morphing Slash, Mountain-Crusher Force, Dragon Convergence / Dragon Convergence Palm
-- Method: negotiate a truce in the inner space, then strike without warning — exactly how Senior Brother lost
+- Proposes a truce in the inner space, letting the swords decide — then strikes without warning. This is how Senior Brother lost
 - After his defeat, stares at Male Lead for a long moment before turning away
 
 ### Gate Envoys
@@ -59,7 +60,9 @@ Several. Carry the casket, and throw it open to force-terminate the Sword Gate w
 
 | Character | Male Lead calls them | They call Male Lead | Gate Boy calls them |
 |---|---|---|---|
-| Master | Master | Disciple | Master |
+| Master | Master | (not shown directly in the text) | Master |
 | Qin Feiyu | Senior Brother | Junior Brother | Senior Brother |
 | Junior Sister | Junior Sister | Baby | Senior Sister |
-| Gate Boy | — | Third Senior Brother | — |
+| Gate Boy | (not shown in the text) | Third Senior Brother | — |
+
+Master addresses his disciples generally as "disciple" (used with Senior Brother and with Gate Boy).

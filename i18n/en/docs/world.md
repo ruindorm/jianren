@@ -1,15 +1,14 @@
 # The Sword Gate
 
 > The rules as stated explicitly in the text, gathered here for reference.
+> **Only what the text actually states appears here.** Inferences are left out.
 
-## What a Sword Gate Is
-
-A formal duelling institution between sects. On opening:
+## When a Sword Gate Opens
 
 1. The ground shakes, wind rises, and a **dimensional space** tears open across the sky
 2. Every mind and body present is forced into **slow motion**
 3. Two **pillars of light** pierce the horizon, each sealing one true blade upright in the earth
-4. Each duellist's **consciousness is locked inside his own sword**. Their bodies remain where they stand, eyes glowing red
+4. Each duellist's **consciousness is locked inside his own sword**. Their bodies remain where they stand, eyes glowing red — Master calls this being "held in escrow upon the field"
 
 ## The Declaration
 
@@ -26,9 +25,9 @@ Which means: **you hold the enemy's sword, and use it to attack the enemy's own 
 
 ## Victory
 
-Destroy the opponent's true sword inside its pillar, or **drive it out of the pillar**.
+As Master puts it: destroy the opponent's sword within its pillar, or drive it out of the pillar entirely.
 
-A sword struck by sword-qi is forced out inch by inch. On substitution, it resets to its original depth.
+A sword struck by sword-qi is forced out inch by inch (the Proudheaven Sword is lifted half an inch at one point). On substitution, it resets to its original depth.
 
 ## Outer Gate and Inner Gate
 
@@ -44,7 +43,7 @@ The inner space allows negotiation — which is exactly how Long Aotian deceived
 
 ## Phase Two: Heaven's Lightning
 
-The pillars changing colour is the warning. At the instant phase two begins, **the outer and inner Gates open a momentary seam** — and both sides will fight for it.
+The pillars changing colour is the warning. As Senior Brother explains it: at the instant phase two begins, **the outer and inner Gates open a momentary seam**.
 
 That seam can be exploited from outside: the dragons the Dragonrealm Gate carved into the front hall in advance converge at exactly that moment, and drive through the seam into Long Aotian's body (Dragon Convergence).
 
@@ -52,16 +51,16 @@ The lightning itself can also be redirected. Male Lead's fractal array wires it 
 
 ## The Price of Challenging
 
-For one sect to challenge another's Sword Gate, the bar is high:
+The rules as Junior Sister states them:
 
-- **Escrow** — swordsman and sword are separated; both champions are locked inside their blades, so neither can renege
-- **Full disclosure** — every technique must be declared. An open-book exam
+- **Escrow** — the swordsman and his sword are separated
+- **Full disclosure** — every technique must be declared
 - **Shame of defeat** — the loser must have their defeat carved upon their own Sword Gate
 
-Which is why nobody challenges another sect's Sword Gate casually.
+Which is why sects generally don't go around challenging each other's Sword Gates.
 
 ## Forced Termination
 
 A **sword casket** can draw the true blade back before settlement completes, terminating the Sword Gate by force and returning both consciousnesses instantly.
 
-Master's reaction — "So it does still exist… I never expected that casket to remain in the world" — indicates the thing is rare, and that he recognises it.
+Master's reaction on seeing it: "So it does still exist… I never expected that casket to remain in the world."
