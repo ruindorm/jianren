@@ -132,8 +132,17 @@ build_lang() {
   esac
 
   if [ "$lang" = en ]; then
+    # Royal Road 的著作權驗證聲明。通過審核後把這一段連同 i18n/en/docs/ownership.md 一起刪掉。
+    local RR_NOTICE='> **Notice for Royal Road staff — proof of ownership**
+>
+> I am the author of this work. **I will be posting this story on RoyalRoad.com** under the
+> account [YOU YANG HOU](https://www.royalroad.com/profile/1047953).
+> Full timestamped revision history: <https://github.com/ruindorm/jianren/commits/main>
+> — see [Proof of Ownership](ownership.md).'
     cat > "$SRC/index.md" <<EOF
 # Bastard Blade
+
+$RR_NOTICE
 
 <div class="jr-hero">
 $cover_img
