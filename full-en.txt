@@ -1,0 +1,820 @@
+Bastard Blade
+Author: Yang Hou
+Read online: https://ruindorm.github.io/jianren/en/
+Source repository: https://github.com/ruindorm/jianren
+Licence: CC BY-NC-ND 4.0 — free to read, credit required, no commercial use, no derivative works.
+
+Full text in one file. Rebuilt automatically on every update.
+
+════════════════════════════════════════
+
+# Prologue
+
+**Male Lead**: Yo, man — who's the biggest bastard in the world?
+
+**Sword**: Master, where bastardry is concerned, your reputation is thoroughly earned. But the biggest bastard in the world is not you. It is someone else.
+
+**Male Lead**: Damn it, that pisses me off. You think I'm going to ask who it is?
+
+**Sword**: No. Based on your track record, Master, you will specifically refuse to ask — purely so you can spite the audience.
+
+**Male Lead**: Who is it?
+
+**Sword**: …Understood. The search will take a moment. Master, would you like to configure a git environment first? So the results can be rolled back.
+
+**Male Lead**: Screw you! Do you still not understand my true power?
+
+**Sword**: Shall I add that question to the search union?
+
+**Male Lead**: You are such a bastard of a sword!
+
+**Sword**: Master, our work is titled *Bastard Blade*. That would be the two of us, together. Correct, Master?
+
+**Male Lead**: …………
+
+════════════════════════════════════════
+
+# Chapter One — Outside the Tribulation Hall
+
+**Senior Brother**: Ha! If it isn't my junior brother. Your illness worsens by the day!
+
+**Male Lead**: You're the sick one! Your whole family is sick!
+
+**Senior Brother**: Rambling nonsense, muttering to yourself constantly — I told Master long ago that you'd already suffered qi deviation!
+
+**Male Lead**: Is it a crime to talk now?
+
+**Senior Brother**: Junior Brother, don't blame me for being rude. (raising his sword-finger) Master said the cure for qi deviation is to force open the blocked meridians…
+
+**Male Lead**: (sneering) You need an excuse to start a fight?
+
+**Senior Brother**: (finger tensed) Have at you!
+
+Metal rang on metal, sparks scattering — Senior Brother's blade was stopped by an unseen edge of sword-qi.
+
+**Senior Brother**: Ah! Master, when did you arrive?
+
+**Master**: (withdrawing his sword-finger) The Tribulation Hall is not a place for sparring.
+
+**Junior Sister**: (running to Male Lead's side) Right? The qi-field here is delicate. If it draws down the heavenly lightning, who's going to answer for it? Isn't that right, baby?
+
+**Male Lead**: (smug) No cap! Junior Sister, you smell amazing today~
+
+**Junior Sister**: The perfume blend you taught me last time — I really, really like it…
+
+**Senior Brother**: (exploding) Gibberish! Master, look at him — his speech has collapsed into pure disorder, nobody can understand a word of it. This disciple only wishes to clear his meridians!
+
+**Male Lead**: Don't you clear meridians with internal energy? You just used a sword. Bastard move~
+
+**Sword**: Master, that line wasn't cool enough. You should have said — "Senior Brother clears meridians with a sword? He must consider his cultivation superior to Master's own."
+
+**Male Lead**: Superior my ass! Don't drive a wedge between me and Master!
+
+**Senior Brother**: You see? You see! Master! His symptoms grow worse by the day!
+
+════════════════════════════════════════
+
+# Chapter Two — The Sword Gate Trial
+
+**Master**: This master does not, in truth, know what a "no cap" is. But remember — a cultivator must not cling to names.
+
+**Junior Sister**: Master~ "No cap" means "that's true"! Just like the teaching Master gave us a moment ago — no cap!
+
+**Male Lead**: Junior Sister's command of language is outstanding!
+
+**Senior Brother**: Enough talk! Junior Brother, if not for your qi deviation, you would have faced me at the Sword Gate long ago.
+
+**Sword**: Master, hurry up and expose him — Senior Brother is the one waiting for Master to finish teaching him the *Myriad Immortals Manual* before he'll have the confidence to beat you. That is the actual reason he won't hold the trial.
+
+**Male Lead**: The hell would you know!
+
+**Senior Brother**: (inwardly: Is he talking to me?)
+
+**Junior Sister**: (tilting her head) (Is baby angry…)
+
+**Master**: (stroking his beard, deep in thought) (This child… could he be trying to enlighten his master?)
+
+**Sword**: Master, shall we proceed with contingency plan two?
+
+════════════════════════════════════════
+
+# Chapter Three — The Challengers
+
+**Gate Boy**: (panicking) Bad news! Master, Senior Sister, both Senior Brothers — the Dragonrealm Gate of the Transcendent Realm Sect has brought people to force our Sword Gate!
+
+**Senior Brother**: Panic over what? What do they take this place for? Master, return to the hall and rest. Junior Sister and I can handle riffraff like this.
+
+**Master**: Another sect's Sword Gate is not challenged lightly. Disciple — take your junior sister and junior brother and assess the situation. Remember: harmony above all. Do not act on temper.
+
+**Junior Sister**: Senior Brother~ let's go~ (taking Male Lead's hand)
+
+**Senior Brother**: (watching the two of them) Hmph!
+
+**Sword**: Master, contingency plan two? Let me first give you the executive summary—
+
+**Male Lead**: Shut up! Can't you see I'm busy? Oh — Junior Sister, not you, haha. Right. Let's walk a little slower…
+
+**Master**: (nodding at their retreating backs, hand on his beard)
+
+**Gate Boy**: Master, this disciple will help you back to the hall…
+
+════════════════════════════════════════
+
+# Chapter Four — Dragons on the Front Hall
+
+**Male Lead**: What the hell? What is this?
+
+**Junior Sister**: Didn't you Dragonrealm people come to challenge the Sword Gate? Why have you turned our front hall into *this*?
+
+**Senior Brother**: You carved dragons into our floor and our pillars?
+
+**Gate Envoy**: Haha — we were here, so we left a few marks. Wouldn't you like to admire them?
+
+**Senior Brother**: Insolence! You didn't come to challenge the Sword Gate. You came to strut.
+
+**Gate Envoy**: We'll take both!
+
+**Male Lead**: Bastard! Hey! Get out there!
+
+**Sword**: Master, are you calling me? My name is not "Hey." Would you like to modify the activation command?
+
+**Gate Envoy**: Your sect really does breed qi deviation! The enemy is at your gate and he's still muttering to himself?
+
+**Junior Sister**: Senior Brothers, don't be rash. Let me. (stepping forward)
+
+**Junior Sister**: I've heard the dragon-blades of the Dragonrealm Gate are devastating, and elegant besides. But the dragons you carved look like maggots.
+
+**Gate Envoy**: What did you say!
+
+**Junior Sister**: Don't rush. For one sect to challenge another's Sword Gate, the swordsman and his sword must be separated and held in escrow, every technique must be disclosed in full, and the loser must have their defeat carved in shame upon their own Sword Gate. Which is precisely why sects don't go around challenging each other…
+
+**Gate Envoy**: Hmph! We know the rules better than you do. That is exactly what we came here for today — to carve your sect's shame into your own Sword Gate!
+
+**Sword**: Master, now would be a good moment to explain further. The audience will follow it more easily.
+
+**Male Lead**: You want me to sell you for scrap? Full of ideas now — where were you when I told you to get out there?
+
+**Sword**: They have not yet consented to escrow. I cannot enter early. Also, you have not issued the activation com—
+
+**Male Lead**: Does the activation have to be *now*?
+
+**Sword**: It is somewhat humiliating, yes. But Master configured it himself.
+
+**Male Lead**: Ugh…
+
+════════════════════════════════════════
+
+# Chapter Five — The Sword Gate Opens
+
+**Long Aotian**: All this dithering and flinching. Is there no one here who can fight?
+
+A striking man stepped out from behind the envoys, who parted to make way.
+
+**Male Lead**: Wow. Waits for his underlings to finish talking before walking out. What a poser.
+
+**Sword**: Master, you have encountered a rival poser.
+
+**Male Lead**: (glaring at Sword) ……
+
+**Junior Sister**: (to Long Aotian) Right? And who even are you?
+
+**Long Aotian**: Open the Sword Gate and you'll know. No one dares? Fine, then. (He gestures; a subordinate hands him a plain sword.)
+
+**Long Aotian**: Let's practise some calligraphy… (idly beginning to carve characters into the front hall floor)
+
+**Senior Brother**: Stop! This is beyond insult! You — will you fight me yourself?
+
+**Long Aotian**: I will. Receiving my Sword Gate challenge is an honour.
+
+**Senior Brother**: Spare me the condescension! By this sect's Sword Gate — I, Qin Feiyu; sword, Skyplume — OPEN THE SWORD GATE!
+
+**Junior Sister**: Senior Brother!
+
+The ground shook. Wind rose. A strange dimensional space tore open across the sky, and every mind and body present was forced into slow motion.
+
+A repulsive force welled up around Senior Brother, and two pillars of light pierced the horizon. Within one stood the Skyplume Sword, driven straight into the earth.
+
+Senior Brother's eyes glowed red — his consciousness was already locked inside the Skyplume Sword.
+
+**Gate Envoy**: Come, then! (Two men carry forward a sword casket.) I, Long Aotian; sword, Proudheaven — ENTER THE SWORD GATE!
+
+The casket shattered. The Proudheaven Sword was drawn into the second pillar and stood upright in the ground, and Long Aotian's consciousness was locked within it.
+
+**Everyone**: (holding their breath)
+
+The pillars seemed to scan and read the two swords. Light churned through the dimensional space — and then, before each man, a sword was cast out.
+
+Before Long Aotian lay the mirror of the Skyplume Sword. He pulled it free without hesitation and levelled it at Qin Feiyu.
+
+Before Qin Feiyu lay the mirror of the Proudheaven Sword. A flick of his sword-finger turned it toward Long Aotian.
+
+The true duel of the Sword Gate was about to begin.
+
+════════════════════════════════════════
+
+# Chapter Six — Skyplume Strike
+
+The Skyplume Sword within the pillar trembled faintly, answering the red glow in Qin Feiyu's eyes. Holding the mirrored Proudheaven Sword — first strike: **Skyplume Strike**. Target: the Proudheaven Sword in the distant pillar.
+
+Long Aotian raised the mirrored Skyplume to block, but the impact drove him back dozens of paces… and the shockwave set a piercing hum ringing through the dimension.
+
+**Junior Sister**: Senior Brother has improved again! An opening form on pure instinct!
+
+**Sword**: Master! That technique looks designed to counter yours!
+
+**Male Lead**: Feels like a tickle.
+
+**Sword**: Master, do not underestimate him.
+
+**Male Lead**: You say that like you'd win for sure.
+
+**Sword**: Master, according to my historical win-rate analysis, you—
+
+**Male Lead**: (pretending not to hear) Junior Sister, want to sit a little closer? The view's better from here, and the sword-qi won't reach you~
+
+**Sword**: …… (entering spectator mode)
+
+Long Aotian's eyes turned murderous, every thrust aimed at Qin Feiyu's vitals. It seemed he meant to kill the man first, and destroy the Skyplume Sword afterwards.
+
+> **[Elsewhere]**
+
+**Gate Boy**: Wow! What an incredible sight — it's my first time seeing a Sword Gate open!
+
+**Master**: Mm… The Sword Gate is a battle of unconscious instinct. Only the swords themselves act — each one moving its owner's opponent's blade.
+
+**Gate Boy**: What? Then where did Senior Brother go?
+
+**Master**: Your senior brother's consciousness is locked inside the Skyplume Sword. Both men are held in escrow upon the field.
+
+**Gate Boy**: Isn't that terribly dangerous? What if the other side has more people and simply walks in and pulls the sword out?
+
+**Master**: Haha — their own champion is locked in his sword just the same! Look at them: too nervous to move a muscle.
+
+**Gate Boy**: I see! So is Senior Brother asleep right now?
+
+**Master**: Quite the opposite. Your senior brother's consciousness is locked in fierce battle with his opponent, in the space within!
+
+> **[The Inner Space]**
+
+Qin Feiyu settled into a fighting stance. Long Aotian stood with open contempt.
+
+**Long Aotian**: Qin Feiyu. I have a proposal.
+
+**Qin Feiyu**: What scheme are you plotting now?
+
+**Long Aotian**: Let us call a truce here, and let our swords decide the outcome. What say you?
+
+**Qin Feiyu**: (staying on guard) The Sword Gate's verdict rests with the swords regardless. But in here—
+
+**Long Aotian**: You've so little faith in your own blade!
+
+**Qin Feiyu**: Hmph! Fine. Let me see how your sword defeats mine!
+
+**Long Aotian**: (coldly) (And there it is.)
+
+> **[Elsewhere]**
+
+**Gate Boy**: Master, if we can't see the inner space, how is the winner decided?
+
+**Master**: Destroy the opponent's sword within its pillar — or drive it out of the pillar entirely. That wins it.
+
+**Master**: Little disciple… this is a rare lesson for you. Watch closely… make good use of it…
+
+**Gate Boy**: Yes, Master!
+
+════════════════════════════════════════
+
+# Chapter Seven — Heavenly Dragon Slash
+
+> **[The Outer Space]**
+
+**Junior Sister**: Ah—!
+
+Senior Brother was trying to break free of Long Aotian and press on toward the Proudheaven pillar — and Long Aotian seemed to be waiting for exactly that.
+
+Senior Brother unleashed the **Twin Plume Strike**, firing sword-qi forward and backward at once: one blade of it to hold off Long Aotian, one to strike the Proudheaven Sword—
+
+The Proudheaven Sword took the blow and lifted half an inch. One more strike and it would be out of the pillar. But…
+
+**"HEAVENLY DRAGON SLASH—!"**
+
+An overwhelming edge of sword-qi came from behind him. Senior Brother, rushing to force the Proudheaven Sword out, took it full on — hurled dozens of metres and left where he fell…
+
+Long Aotian, seeing his opening, walked toward the Skyplume pillar with something close to mockery — and deliberately, with the clumsy motion of a man who knew no martial arts at all, knocked the Skyplume Sword out of its pillar.
+
+**Gate Envoy**: Haha! Not worth the effort! Your sect is a joke!
+
+**Junior Sister**: Senior Brother…
+
+The dimensional space began to warp. And just as the pillars were about to withdraw—
+
+**Male Lead**: (bellowing) THAT IS ENOUGH! My name—
+
+════════════════════════════════════════
+
+# Chapter Eight — Sword, Activate
+
+**Male Lead**: My name: My Name! Sword: Sword! Substitution — entering the Gate!
+
+**Sword**: Er. Master. You're missing the…
+
+**Junior Sister**: Senior Brother! Be careful!
+
+**Long Aotian**: ???
+
+**Gate Envoy**: ????
+
+**Senior Brother, from the ground**: Uh… ????
+
+**Male Lead**: (face burning scarlet, making a heart with both hands at his sword) **MY SWORD, ACTIVATE!**
+
+**Everyone**: …………
+
+The pillars of light descended once more. In one stood the Proudheaven Sword. In the other stood… well. Male Lead's sword.
+
+**My Name**: …… (eyes glowing red) — and picked up the mirror of the Proudheaven Sword.
+
+The mirrored Skyplume in Long Aotian's hand was recalled. In its place, he took up a new mirror: Male Lead's sword.
+
+**My Name**: **SWORD ARRAY.**
+
+Sword-qi bled out around My Name, shimmering with a strange light… as though observing — reading — every single thing Long Aotian did.
+
+**Long Aotian**: (momentarily frozen)
+
+**Everyone**: …still lost for words.
+
+**Master, in the distance**: Mm… (hand on his beard)
+
+════════════════════════════════════════
+
+# Chapter Nine — You Bitch
+
+> **[The Outer Space]**
+
+**My Name (Sword Edition)**: You bitch!
+
+**Everyone**: ……?????
+
+**Long Aotian**: (eyes murderous, gripping the mirrored blade)
+
+**My Name (Sword Edition)**: Heh heh… (sword-finger raised) A lance of sword-qi shot straight at Long Aotian's face.
+
+> **[Elsewhere]**
+
+**Gate Boy**: Master, what does "you bitch" mean? Didn't you say the consciousness gets locked inside the sword? How can Third Senior Brother talk?
+
+**Master**: This… even your master doesn't quite understand it. A sword wielding a sword will reflect its owner's habitual subconscious and bodily motion… perhaps you should ask your senior brother yourself.
+
+**Gate Boy**: I want to be that cool one day!
+
+**Master**: Disciple. What did you say?
+
+**Gate Boy**: Third Senior Brother taught me. He said: be… beach!
+
+**Master**: (patting Gate Boy on the head) Hahaha…
+
+> **[The Outer Space]**
+
+The duel raged on.
+
+Long Aotian batted the sword-qi aside without effort. Behind him, the Proudheaven Sword had already returned to its original depth in the earth, restored the instant My Name took over (battle reset conditions).
+
+Long Aotian gripped the mirrored blade and swept it toward My Name and the pillar holding his sword. The force behind it was immense at first — and then dissolved into the array.
+
+**Junior Sister**: Senior Brother… are you all right?
+
+**Senior Brother**: Cough… I'm fine. Blacked out for a moment there… the Skyplume Sword left the Gate, so my consciousness came back.
+
+Senior Brother settled cross-legged to regulate his breathing, watching the battlefield shift.
+
+The pillars began to change colour — the Sword Gate's warning. Phase two was coming.
+
+Long Aotian, repeatedly denied, began to accelerate his attacks.
+
+**My Name**: Now testing defensive behaviour.
+
+The array vanished — and reappeared beside the Proudheaven pillar.
+
+**Long Aotian**: (aghast)
+
+════════════════════════════════════════
+
+# Chapter Ten — The Inner Space
+
+> **[The Inner Space]**
+
+**Long Aotian's consciousness** (hereafter "Long Aotian"): Hmph! A lunatic who talks to himself!
+
+**My Name's consciousness** (hereafter "My Name"): You really don't get it, do you! My sword is busy fighting your sword right now, so I can't even find anyone to chat with!
+
+**Long Aotian**: So you'd like a taste of what your senior brother got?
+
+**My Name**: You really don't understand my true power!
+
+**Long Aotian**: Power must be proven. (throwing a punch)
+
+**My Name**: (slipping aside, into a joint lock) Did nobody teach you not to graffiti other people's houses? (spinning into a palm strike — which lands squarely on the man's backside)
+
+**Long Aotian**: (humiliated, furious) 【**MOUNTAIN-CRUSHER FORCE**】— the impact was tremendous; My Name was driven back several steps.
+
+**My Name**: Anger management problems too, I see! Need more warm-up?
+
+> **[Inside the Sword Gate]**
+
+**Junior Sister**: Senior Brother, the barriers are shifting fast!
+
+**Senior Brother**: Mm… the fight inside must be fierce. The outcome of the inner fight determines the strength of the pillar barriers — the sword alone isn't enough.
+
+**Junior Sister**: Senior Brother, how did Long Aotian knock your sword out?
+
+**Senior Brother**: He negotiated a truce, said we'd let the swords decide — then struck me without warning…
+
+**Junior Sister**: What a bastard!
+
+**Gate Envoys**: (exchanging glances, planning something…)
+
+**My Name (Sword Edition)**: Sword Gate phase two in ten seconds…
+
+**Long Aotian (Proudheaven Edition)**: (seeing the array behind him, aghast; whipping his blade back into guard, reading My Name's sword techniques…)
+
+**My Name (Sword Edition)**: Open book exam. Don't blame me when you still fail. (Sword Array 2 primed, ready to fire the instant phase two begins)
+
+════════════════════════════════════════
+
+# Chapter Eleven — Dragon Convergence
+
+**Long Aotian**: Insolent brat — behold true power!
+
+The dragon carvings across the front hall lit up, linking into a single dragon-form that surged toward the inner space.
+
+**Senior Brother**: 【**DRAGON CONVERGENCE**】!
+
+**Junior Sister**: What's happening?
+
+**Gate Boy**: Master, aren't you going to act?
+
+**Master**: Have faith in your senior brothers and sister…
+
+**My Name (Sword Edition)**: (detecting the dragon-form entering the inner space; response protocol engaged) Anomaly. Smoke. Executing contingency plan two — fallback path.
+
+**Long Aotian (Sword Edition)**: 【**HEAVENLY DRAGON MORPHING SLASH**】!
+
+**My Name (Sword Edition)**: That's the one I was waiting for — Sword Array 2: **FRACTAL**.
+
+The array beside the Proudheaven pillar shattered into self-similar arrays, multiplying exponentially until they saturated the entire space.
+
+**Senior Brother**: They're both exploiting the phase-two instant — that's when the outer and inner Gates open a momentary seam.
+
+**Junior Sister**: Those dragon carvings were planned from the start!
+
+════════════════════════════════════════
+
+# Chapter Twelve — Phase Two: Heaven's Lightning
+
+A terrible sound came from above the inner space; everyone hurried to shut their eyes.
+
+White light, and a rolling roar — and between the space of consciousness and the pillars of light, the world sheared apart in crossing fractures.
+
+The dragon-form slipped through the seam and drove into Long Aotian's body. The **Dragon Convergence Palm** launched at My Name's chest—
+
+Powered by borrowed strength, the palm carried appalling force. My Name sank his weight into his stance, calculating the timing gap between his sword's resistance and his own—
+
+Both men had their eyes closed. The flash and thunder of the heavenly lightning caught My Name between the assault without and the assault within, and the strain was brutal…
+
+> **[The Outer Space]**
+
+Between the two pillars, the final exchange was about to land—
+
+My Name (Sword Edition)'s fractal array connected the heavenly lightning directly to the Proudheaven pillar, forming a precision strike that could not be defended.
+
+The Heavenly Dragon Morphing Slash struck the pillar holding My Name's sword, and the blade was driven inch by inch toward the open air—
+
+And then My Name's body, on pure instinct, severed the tail of the slash…
+
+Everyone held their breath…
+
+A single clear ring — and the Proudheaven Sword was blasted out of its pillar first!
+
+**My Name (Sword Edition)**: **YOU LOSE!**
+
+Long Aotian's palm was halfway through its arc… and his consciousness began to dissolve. My Name braced to take the full weight of that strike — but his own consciousness was fading too…
+
+The lightning ceased. The pillars entered the settlement phase—
+
+**Senior Brother and Junior Sister**: WE WON!
+
+But…
+
+**Gate Envoy**: NOW!
+
+Two envoys flung the sword casket open. The Proudheaven Sword was drawn in, and both men's consciousness snapped back at once.
+
+The dimensional space vanished in an instant.
+
+**Master**: Mm. So it does still exist — a forced termination of the Sword Gate… I never expected that casket to remain in the world…
+
+**Senior Brother**: Your Transcendent Realm Sect is beneath contempt!
+
+**Junior Sister**: I've never seen anyone so classless!
+
+Long Aotian did not appear to care in the slightest. His gaze passed over Senior Brother and settled on My Name, pinning him there for a long moment…
+
+Then he turned and left without looking back.
+
+**The Dragonrealm envoys**: Consider yourselves lucky today! We're leaving!
+
+**My Name**: (sitting on the ground, holding his head) Disconnected… ow… my head…
+
+**Junior Sister**: (running over) Baby, are you okay? (taking out a handkerchief to wipe his face)
+
+**My Name**: (seeing the handkerchief, a smug smile spreading) I'm fine. You carry everything I give you?
+
+**Junior Sister**: Of course I do… you just won, you know… (blushing)
+
+**Sword**: Master, your physical reflexes are as excellent as ever! That instantaneous response was extremely cool—
+
+**My Name**: Were you trying to get me killed with that move? I'll deal with you later! Ah — not you, Junior Sister, I didn't mean you…
+
+════════════════════════════════════════
+
+# Chapter Thirteen — The Sample
+
+**Long Aotian**: Sect Master. The mission was a success.
+
+**Sect Master**: Good. Open it.
+
+**Gate Envoy**: (carrying in the casket and opening it)
+
+**Sect Master**: (raising the Proudheaven Sword and a second treasured blade on his sword-finger) Hah!
+
+The two swords struck one another in mid-air. The Sect Master closed his eyes.
+
+**Sect Master**: Marvellous! That sword of his… there is some inexplicable animate force hidden inside it…
+
+**Long Aotian**: The Sect Master's insight is unmatched! In this Sword Gate challenge, this disciple held out to the second phase of the lightning, to gather as many samples for you as possible…
+
+**Sect Master**: Very good. And her?
+
+**Long Aotian**: Mm. The young lady is well. At present, she is on intimate terms with that strange swordsman.
+
+(The two blades finished their exchange, and fell silent.)
+
+**Sect Master**: (withdrawing his energy, satisfied) Hahaha… it won't be much longer…
+
+**Long Aotian and the envoys**: ………… (holding their reverent posture, unmoving)
+
+
+*(To be continued…)*
+
+════════════════════════════════════════
+
+# Characters
+
+> A reference sheet, kept so that forms of address and seniority stay consistent. Only information already stated in the text appears here.
+
+## The Sect
+
+### Master
+The sect head. Speaks slowly, strokes his beard constantly. Doesn't understand his disciples' modern slang ("no cap"), but holds that a cultivator must not cling to names.
+
+Knows about the forced termination of a Sword Gate — and knows that *that casket is still in the world*.
+
+### Senior Brother — Qin Feiyu
+- Sword: **Skyplume**
+- Techniques: Skyplume Strike, Twin Plume Strike
+- Convinced his third junior brother has suffered qi deviation, and keeps trying to "clear his meridians"
+- Is waiting for Master to finish teaching him the *Myriad Immortals Manual* before he'll risk a duel — a fact the Sword announces publicly
+
+### Second Senior Brother
+**Has not appeared.** But he exists within Gate Boy's system of address, which is why Male Lead ranks third.
+
+### Third Senior Brother (Male Lead / "My Name")
+- Sword: **Sword** (that is its name — it doesn't have one)
+- Techniques: Sword Array, Sword Array 2 (Fractal)
+- The sect's designated qi-deviation patient, because he talks to his sword all day
+- Entry declaration: "My name: My Name! Sword: Sword!" — the activation command is his own configuration, and requires making a heart at the sword with both hands
+- Teaches Gate Boy English (Gate Boy learns "bitch")
+
+### Junior Sister
+- Calls Male Lead "baby"
+- Carries the handkerchief he gave her everywhere
+- Knows the Sword Gate rules cold, and recites them at the enemy in Chapter Four
+- **Foreshadowed identity**: the "young lady" the Dragonrealm Sect Master asks about
+
+### Gate Boy
+The youngest disciple. Helps Master back to the hall, watches the Sword Gate from a distance. Calls Male Lead "Third Senior Brother" and Junior Sister "Senior Sister."
+
+Serves as the audience's proxy — most of the Sword Gate's rules are explained through his questions.
+
+## The Transcendent Realm Sect · Dragonrealm Gate
+
+### Sect Master
+His real objective was never to win the Sword Gate. It was to **collect samples**.
+
+After striking the two blades together, he detects "some inexplicable animate force" hidden inside Male Lead's sword.
+
+His closing line: "It won't be much longer."
+
+### Long Aotian
+- Sword: **Proudheaven**
+- Techniques: Heavenly Dragon Slash, Heavenly Dragon Morphing Slash, Mountain-Crusher Force, Dragon Convergence / Dragon Convergence Palm
+- Method: negotiate a truce in the inner space, then strike without warning — exactly how Senior Brother lost
+- After his defeat, stares at Male Lead for a long moment before turning away
+
+### Gate Envoys
+Several. Carry the casket, and throw it open to force-terminate the Sword Gate when the match is lost.
+
+---
+
+## Forms of Address
+
+| Character | Male Lead calls them | They call Male Lead | Gate Boy calls them |
+|---|---|---|---|
+| Master | Master | Disciple | Master |
+| Qin Feiyu | Senior Brother | Junior Brother | Senior Brother |
+| Junior Sister | Junior Sister | Baby | Senior Sister |
+| Gate Boy | — | Third Senior Brother | — |
+
+════════════════════════════════════════
+
+# Copyright & Licence
+
+*Bastard Blade* (《劍人》)
+Author: Yang Hou
+Contact: pftmax@gmail.com
+
+**Free to read. All rights reserved by the author.**
+Licence: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+---
+
+## You may
+
+- ✅ Read the whole thing, free, with no payment, account or permission required
+- ✅ Share the link with anyone
+- ✅ Repost passages or whole chapters — **provided you credit the author and link back to the original**
+- ✅ Quote excerpts in reviews, recommendations, essays or academic discussion
+- ✅ Clone the repository to read offline
+
+When reposting, please include this line:
+
+> *Bastard Blade* by Yang Hou — https://github.com/ruindorm/jianren
+
+## You may not
+
+- ❌ **Commercial use** — selling it, placing it behind a paywall, using it on monetised pages, merchandise
+- ❌ **Derivative works** — rewriting, continuing, translating, or adapting it into comics, film, games or audiobooks for distribution
+- ❌ **Anonymous reposting** — publishing the content elsewhere without naming the author or the source
+- ❌ **Passing it off as your own** — submitting it under your name, entering it into competitions, registering it as your work
+- ❌ **Feeding it to AI systems for training or paraphrase-and-publish** — this constitutes unauthorised derivative and commercial use
+
+## Want to do any of the above?
+
+**Let's talk.** Adaptation, translation, audiobook, film, fan works and commercial reprinting can all be licensed separately. Write to pftmax@gmail.com.
+
+The author is open to collaboration — the only requirement is being asked first.
+
+---
+
+## A note on this translation
+
+The English text is a transcreation by the author's team, not an authorised third-party translation. Under the CC BY-NC-ND licence, translation is a derivative work and is not permitted without separate agreement. If you would like to translate *Bastard Blade* into another language, please get in touch rather than publishing unilaterally.
+
+See also: [Translation Notes](translation-notes.md).
+
+════════════════════════════════════════
+
+# Translation Notes
+
+*Bastard Blade* is a **transcreation** of the Chinese original 《劍人》, not a literal translation. Comedy does not survive word-for-word rendering. This page records what was changed and why — partly for readers, partly so future translators into other languages know which jokes are load-bearing.
+
+## The Title
+
+The Chinese title 劍人 (*jiàn rén*, "sword person") is a homophone of 賤人 (*jiàn rén*, "bastard / scumbag"). The entire title is a pun, and it is untranslatable.
+
+**Bastard Blade** reconstructs the same double meaning through a different route: the blade *is* a bastard, and it is used to cut down bastards. The tagline — *Slay the bastards. My sword is for picking up girls.* — carries the original's second half intact.
+
+## Jokes That Had to Be Rebuilt
+
+### "That's right" → "no cap"
+
+In the original, Male Lead says the English phrase *that's right*, transliterated into Chinese characters as 辣死賴. Master, who speaks no English, is baffled and delivers a solemn lesson about not clinging to names. Junior Sister then "explains" it wrongly but confidently.
+
+In English, Master obviously understands *that's right*. The joke is dead on arrival. It was rebuilt around **"no cap"** — modern slang an elderly cultivator plausibly would not know. The structure survives exactly: Master doesn't understand it, refuses to be bothered by it, and Junior Sister redeploys it enthusiastically.
+
+### "you bitch" → "be… beach!"
+
+In the original, Gate Boy mishears *you bitch* as the Chinese transliteration 優閉取, then repeats it as "be… 酷" (*be cool*). The humour is a child innocently parroting an obscenity he can't parse.
+
+English keeps Gate Boy's question ("what does 'you bitch' mean?") and rebuilds the payoff as **"be… beach!"** — the same innocent mangling, the same beat.
+
+## What Translated Cleanly
+
+The technology jokes needed almost no adaptation, and are arguably stronger in English:
+
+> configure a git environment first — so the results can be rolled back
+> add that question to the search union
+> according to my historical win-rate analysis
+> executing contingency plan two — fallback path
+> open book exam. Don't blame me when you still fail
+
+These land identically in any language with software engineers in it.
+
+## Terminology
+
+Standard xianxia English was used wherever it exists, so readers of the genre need no glossary.
+
+| Chinese | English |
+|---|---|
+| 走火入魔 | qi deviation |
+| 經脈 | meridians |
+| 劍指 | sword-finger |
+| 宗門 | sect |
+| 渡劫大殿 | Tribulation Hall |
+| 劍關 | Sword Gate |
+| 表空間／裡空間 | Outer Space / Inner Space |
+| 天羽劍 | Skyplume Sword |
+| 傲天劍 | Proudheaven Sword |
+| 萬仙訣 | *Myriad Immortals Manual* |
+| 御劍陣 | Sword Array |
+| 崩山勁 | Mountain-Crusher Force |
+| 聚龍臨界 | Dragon Convergence |
+
+**Long Aotian** (龍傲天) is kept in pinyin deliberately. In Chinese internet culture the name is shorthand for an insufferably invincible protagonist — roughly the Gary Stu — and the joke is that he is the *antagonist* here. Translating it would erase that.
+
+**"My Name"** is likewise literal on purpose. Male Lead is never given a name; when forced to declare himself at the Sword Gate he shouts "My name: My Name! Sword: Sword!" — and the narration calls him My Name from that point on. Same for **Male Lead** and **Sword**: the story repeatedly breaks the fourth wall (the sword mentions "the audience"), so the placeholder labels are the joke, not a translation gap.
+
+## Register
+
+The original is crude. The translation is crude. Softening the profanity would flatten the protagonist into someone he is not — his defining trait is that he is a foul-mouthed idiot with an even more foul-mouthed sword.
+
+════════════════════════════════════════
+
+# The Sword Gate
+
+> The rules as stated explicitly in the text, gathered here for reference.
+
+## What a Sword Gate Is
+
+A formal duelling institution between sects. On opening:
+
+1. The ground shakes, wind rises, and a **dimensional space** tears open across the sky
+2. Every mind and body present is forced into **slow motion**
+3. Two **pillars of light** pierce the horizon, each sealing one true blade upright in the earth
+4. Each duellist's **consciousness is locked inside his own sword**. Their bodies remain where they stand, eyes glowing red
+
+## The Declaration
+
+> I, ⟨name⟩; sword, ⟨sword name⟩ — **OPEN THE SWORD GATE!**
+> (The challenger says "enter the Sword Gate.")
+
+Male Lead's version is "My name: My Name! Sword: Sword! **Substitution — entering the Gate!**" — and will not activate until he makes a heart at his sword with both hands.
+
+## The Core Twist
+
+Once the pillars have scanned and read the two swords, each man is issued **a mirror of his opponent's blade**.
+
+Which means: **you hold the enemy's sword, and use it to attack the enemy's own true blade.**
+
+## Victory
+
+Destroy the opponent's true sword inside its pillar, or **drive it out of the pillar**.
+
+A sword struck by sword-qi is forced out inch by inch. On substitution, it resets to its original depth.
+
+## Outer Gate and Inner Gate
+
+| | Outer Space (the Sword Gate) | Inner Space |
+|---|---|---|
+| Who fights | The two mirrored swords | The two consciousnesses |
+| Visible to spectators | Yes | No |
+| Effect | Decides the match directly | Determines **pillar barrier strength** |
+
+Senior Brother's conclusion: **the sword alone isn't enough.**
+
+The inner space allows negotiation — which is exactly how Long Aotian deceived Qin Feiyu with a truce, then struck.
+
+## Phase Two: Heaven's Lightning
+
+The pillars changing colour is the warning. At the instant phase two begins, **the outer and inner Gates open a momentary seam** — and both sides will fight for it.
+
+That seam can be exploited from outside: the dragons the Dragonrealm Gate carved into the front hall in advance converge at exactly that moment, and drive through the seam into Long Aotian's body (Dragon Convergence).
+
+The lightning itself can also be redirected. Male Lead's fractal array wires it straight into the opponent's pillar, producing a strike that cannot be defended.
+
+## The Price of Challenging
+
+For one sect to challenge another's Sword Gate, the bar is high:
+
+- **Escrow** — swordsman and sword are separated; both champions are locked inside their blades, so neither can renege
+- **Full disclosure** — every technique must be declared. An open-book exam
+- **Shame of defeat** — the loser must have their defeat carved upon their own Sword Gate
+
+Which is why nobody challenges another sect's Sword Gate casually.
+
+## Forced Termination
+
+A **sword casket** can draw the true blade back before settlement completes, terminating the Sword Gate by force and returning both consciousnesses instantly.
+
+Master's reaction — "So it does still exist… I never expected that casket to remain in the world" — indicates the thing is rare, and that he recognises it.

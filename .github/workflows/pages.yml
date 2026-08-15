@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write   # 需要把純文字全文寫回倉庫
   pages: write
   id-token: write
 
@@ -42,6 +42,25 @@ jobs:
 
       - name: 建置
         run: bash tools/build-site.sh
+
+      # 倉庫根目錄也放一份純文字全文，讓 raw.githubusercontent.com 這條路也通。
+      # 有些工具擋 github.com 或 github.io，但 raw 網域可以走。
+      - name: 同步純文字全文回倉庫
+        if: github.ref == 'refs/heads/main'
+        run: |
+          cp site/full.txt          full.txt
+          cp site/en/full.txt       full-en.txt
+          cp site/zh-Hans/full.txt  full-zh-Hans.txt
+          if git diff --quiet -- full.txt full-en.txt full-zh-Hans.txt; then
+            echo "純文字全文無變動，不需要提交"
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add full.txt full-en.txt full-zh-Hans.txt
+          git commit -m '自動更新純文字全文'
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

@@ -84,6 +84,14 @@
 
 簡體與英文把語言代碼加在中間即可，例如 `…/jianren/en/full.txt`、`…/jianren/zh-Hans/txt/ch01.txt`。
 
+如果對方連 `github.io` 也擋，倉庫根目錄另外放了同樣的純文字全文，走 `raw` 網域：
+
+- https://raw.githubusercontent.com/ruindorm/jianren/main/full.txt
+- https://raw.githubusercontent.com/ruindorm/jianren/main/full-en.txt
+- https://raw.githubusercontent.com/ruindorm/jianren/main/full-zh-Hans.txt
+
+根目錄那三個 `full*.txt` 由 Actions 自動同步，**不要手動編輯**，正文請改 `src/`。
+
 這些檔案在每次章節更新後由 GitHub Actions 自動重建，內容與正文永遠同步。
 
 **授權提醒**：開放檢索不等於開放利用。本作品採 CC BY-NC-ND 4.0，可讀、可引用、可轉貼（須標示作者與出處），**不可商業使用、不可改作**。
