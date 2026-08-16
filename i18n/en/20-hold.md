@@ -4,13 +4,13 @@
 
 Senior Brother, seeing the Myriad Immortals technique unleashed, watched without blinking, utterly absorbed.
 
-My Name and Junior Sister were watching Master instead.
+Wu Ming and Junior Sister were watching Master instead.
 
 And Master simply went on holding the Sword Gate Echo open, very little showing on his face.
 
 **Sword**: Master, it appears the ninth stage is a cultivation trial — you must take the killing qi upon your body and not die. Without the Myriad Immortals technique, this stage is functionally suicide…
 
-**My Name**: You really are a mood-killer. Everybody already knows that. Why are you over there spoiling it?
+**Wu Ming**: You really are a mood-killer. Everybody already knows that. Why are you over there spoiling it?
 
 > **[Within the Echo]**
 

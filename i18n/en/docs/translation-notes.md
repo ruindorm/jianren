@@ -54,9 +54,31 @@ Standard xianxia English was used wherever it exists, so readers of the genre ne
 | 崩山勁 | Mountain-Crusher Force |
 | 聚龍臨界 | Dragon Convergence |
 
-**Long Aotian** (龍傲天) is kept in pinyin deliberately. In Chinese internet culture the name is shorthand for an insufferably invincible protagonist — roughly the Gary Stu — and the joke is that he is the *antagonist* here. Translating it would erase that.
+## Names
 
-**"My Name"** is likewise literal on purpose. Male Lead is never given a name; when forced to declare himself at the Sword Gate he shouts "My name: My Name! Sword: Sword!" — and the narration calls him My Name from that point on. Same for **Male Lead** and **Sword**: the story repeatedly breaks the fourth wall (the sword mentions "the audience"), so the placeholder labels are the joke, not a translation gap.
+Personal names are transliterated: **Qin Feiyu**, **Long Aotian**, **Yuan Ping**, **Yun'er**.
+
+**Long Aotian** (龍傲天) is kept in pinyin for a further reason. In Chinese internet culture the
+name is shorthand for an insufferably invincible protagonist — roughly the Gary Stu — and the
+joke is that he is the *antagonist* here. Translating it would erase that.
+
+**Wu Ming** (吾名) is the protagonist's name, and it is a problem. In Chinese it does not read as
+a name at all: 吾名 literally means *my name*, and it is pronounced identically to 無名,
+*nameless*. When he is forced to declare himself at the Sword Gate, what he shouts is, in effect,
+"My name: My Name!" — which is why everyone present responds with question marks.
+
+Transliterating alone would kill that scene: "My name: Wu Ming!" is a perfectly ordinary
+declaration, and the confusion of the onlookers would make no sense. Translating alone would
+break with every other name in the book.
+
+So the book does both. He is **Wu Ming** throughout, and at the moment of declaration the line
+plays in English with a one-line gloss of the pronunciation. Readers who follow translated
+fiction will recognise the device; the effect is not identical to the Chinese, but it is not lost
+either.
+
+**Male Lead** and **Sword** are left as labels rather than names because that is what they are in
+the original — the story breaks the fourth wall repeatedly (the sword mentions "the audience"),
+and the placeholder labels are part of the joke.
 
 ## Register
 

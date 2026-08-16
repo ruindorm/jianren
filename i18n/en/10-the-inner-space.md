@@ -4,19 +4,19 @@
 
 **Long Aotian's consciousness** (hereafter "Long Aotian"): Hmph! A lunatic who talks to himself!
 
-**My Name's consciousness** (hereafter "My Name"): You really don't get it, do you! My sword is busy fighting your sword right now, so I can't even find anyone to chat with!
+**Wu Ming's consciousness** (hereafter "Wu Ming"): You really don't get it, do you! My sword is busy fighting your sword right now, so I can't even find anyone to chat with!
 
 **Long Aotian**: So you'd like a taste of what your senior brother got?
 
-**My Name**: You really don't understand my true power!
+**Wu Ming**: You really don't understand my true power!
 
 **Long Aotian**: Power must be proven. (throwing a punch)
 
-**My Name**: (slipping aside, into a joint lock) Did nobody teach you not to graffiti other people's houses? (spinning into a palm strike — which lands squarely on the man's backside)
+**Wu Ming**: (slipping aside, into a joint lock) Did nobody teach you not to graffiti other people's houses? (spinning into a palm strike — which lands squarely on the man's backside)
 
-**Long Aotian**: (humiliated, furious) 【**MOUNTAIN-CRUSHER FORCE**】— the impact was tremendous; My Name was driven back several steps.
+**Long Aotian**: (humiliated, furious) 【**MOUNTAIN-CRUSHER FORCE**】— the impact was tremendous; Wu Ming was driven back several steps.
 
-**My Name**: Anger management problems too, I see! Need more warm-up?
+**Wu Ming**: Anger management problems too, I see! Need more warm-up?
 
 > **[Inside the Sword Gate]**
 
@@ -32,8 +32,8 @@
 
 **Gate Envoys**: (exchanging glances, planning something…)
 
-**My Name (Sword Edition)**: Sword Gate phase two in ten seconds…
+**Wu Ming (Sword Edition)**: Sword Gate phase two in ten seconds…
 
-**Long Aotian (Proudheaven Edition)**: (seeing the array behind him, aghast; whipping his blade back into guard, reading My Name's sword techniques…)
+**Long Aotian (Proudheaven Edition)**: (seeing the array behind him, aghast; whipping his blade back into guard, reading Wu Ming's sword techniques…)
 
-**My Name (Sword Edition)**: Open book exam. Don't blame me when you still fail. (Sword Array 2 primed, ready to fire the instant phase two begins)
+**Wu Ming (Sword Edition)**: Open book exam. Don't blame me when you still fail. (Sword Array 2 primed, ready to fire the instant phase two begins)

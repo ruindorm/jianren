@@ -2,13 +2,13 @@
 
 > **[The Outer Space]**
 
-**My Name (Sword Edition)**: You bitch!
+**Wu Ming (Sword Edition)**: You bitch!
 
 **Everyone**: ……?????
 
 **Long Aotian**: (eyes murderous, gripping the mirrored blade)
 
-**My Name (Sword Edition)**: Heh heh… (sword-finger raised) A lance of sword-qi shot straight at Long Aotian's face.
+**Wu Ming (Sword Edition)**: Heh heh… (sword-finger raised) A lance of sword-qi shot straight at Long Aotian's face.
 
 > **[Elsewhere]**
 
@@ -28,9 +28,9 @@
 
 The duel raged on.
 
-Long Aotian batted the sword-qi aside without effort. Behind him, the Proudheaven Sword had already returned to its original depth in the earth, restored the instant My Name took over (battle reset conditions).
+Long Aotian batted the sword-qi aside without effort. Behind him, the Proudheaven Sword had already returned to its original depth in the earth, restored the instant Wu Ming took over (battle reset conditions).
 
-Long Aotian gripped the mirrored blade and swept it toward My Name and the pillar holding his sword. The force behind it was immense at first — and then dissolved into the array.
+Long Aotian gripped the mirrored blade and swept it toward Wu Ming and the pillar holding his sword. The force behind it was immense at first — and then dissolved into the array.
 
 **Junior Sister**: Senior Brother… are you all right?
 
@@ -42,7 +42,7 @@ The pillars began to change colour — the Sword Gate's warning. Phase two was c
 
 Long Aotian, repeatedly denied, began to accelerate his attacks.
 
-**My Name**: Now testing defensive behaviour.
+**Wu Ming**: Now testing defensive behaviour.
 
 The array vanished — and reappeared beside the Proudheaven pillar.
 

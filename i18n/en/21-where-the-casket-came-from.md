@@ -10,6 +10,6 @@ One by one, everyone came back to themselves—
 
 **Junior Sister**: Master… what about her? Your wife. What happened after you left the Gate?
 
-**My Name**: Holy shit! That casket the Dragonrealm Gate was carrying — it's Master's!
+**Wu Ming**: Holy shit! That casket the Dragonrealm Gate was carrying — it's Master's!
 
 **Master**: Patience…

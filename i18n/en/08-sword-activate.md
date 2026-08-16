@@ -1,6 +1,9 @@
 # Chapter Eight — Sword, Activate
 
-**Male Lead**: My name: My Name! Sword: Sword! Substitution — entering the Gate!
+**Male Lead**: My name: **MY NAME**! Sword: **SWORD**! Substitution — entering the Gate!
+
+> *(In Chinese, "my name" is pronounced* **wú míng** *— and that is, in fact, his name.
+> It also happens to be exactly how you say "nameless." Nobody in his sect finds it funny either.)*
 
 **Sword**: Er. Master. You're missing the…
 
@@ -18,13 +21,13 @@
 
 The pillars of light descended once more. In one stood the Proudheaven Sword. In the other stood… well. Male Lead's sword.
 
-**My Name**: …… (eyes glowing red) — and picked up the mirror of the Proudheaven Sword.
+**Wu Ming**: …… (eyes glowing red) — and picked up the mirror of the Proudheaven Sword.
 
 The mirrored Skyplume in Long Aotian's hand was recalled. In its place, he took up a new mirror: Male Lead's sword.
 
-**My Name**: **SWORD ARRAY.**
+**Wu Ming**: **SWORD ARRAY.**
 
-Sword-qi bled out around My Name, shimmering with a strange light… as though observing — reading — every single thing Long Aotian did.
+Sword-qi bled out around Wu Ming, shimmering with a strange light… as though observing — reading — every single thing Long Aotian did.
 
 **Long Aotian**: (momentarily frozen)
 

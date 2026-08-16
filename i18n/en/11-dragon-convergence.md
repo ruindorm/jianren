@@ -12,11 +12,11 @@ The dragon carvings across the front hall lit up, linking into a single dragon-f
 
 **Master**: Have faith in your senior brothers and sister…
 
-**My Name (Sword Edition)**: (detecting the dragon-form entering the inner space; response protocol engaged) Anomaly. Smoke. Executing contingency plan two — fallback path.
+**Wu Ming (Sword Edition)**: (detecting the dragon-form entering the inner space; response protocol engaged) Anomaly. Smoke. Executing contingency plan two — fallback path.
 
 **Long Aotian (Sword Edition)**: 【**HEAVENLY DRAGON MORPHING SLASH**】!
 
-**My Name (Sword Edition)**: That's the one I was waiting for — Sword Array 2: **FRACTAL**.
+**Wu Ming (Sword Edition)**: That's the one I was waiting for — Sword Array 2: **FRACTAL**.
 
 The array beside the Proudheaven pillar shattered into self-similar arrays, multiplying exponentially until they saturated the entire space.
 

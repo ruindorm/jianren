@@ -20,11 +20,11 @@ Recognises the casket the Dragonrealm Gate used — "So it does still exist… I
 ### Second Senior Brother
 **Has not appeared.** But Gate Boy calls Male Lead "Third Senior Brother," so this person exists in the seniority order.
 
-### Third Senior Brother (Male Lead / "My Name")
+### Third Senior Brother — Wu Ming (吾名)
 - Sword: **Sword** (the text simply calls it "the Sword"; it is given no other name)
 - Techniques: Sword Array, Sword Array 2 (Fractal)
 - The whole sect believes he has qi deviation because he mutters constantly — he is in fact talking to his sword
-- Entry declaration: "My name: My Name! Sword: Sword!"; the activation command is his own configuration, and requires making a heart at the sword with both hands
+- Entry declaration: "My name: MY NAME! Sword: SWORD!" — 吾名 is pronounced *wú míng* and literally means "my name" (see [Translation Notes](translation-notes.md)); the activation command is his own configuration, and requires making a heart at the sword with both hands
 - Gate Boy says "Third Senior Brother taught me" (what he learned was "bitch")
 
 ### Junior Sister
