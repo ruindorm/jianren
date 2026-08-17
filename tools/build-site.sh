@@ -96,7 +96,8 @@ build_lang() {
     out="$(basename "$f" .md)"
     # 內部工作流程文件不上讀者網站
     # 伏筆追蹤是寫作用的對照表，內容即劇透，不上讀者網站
-    case "$out" in 圖片生成|純文字入口|伏筆追蹤) continue ;; esac
+    # 分鏡提示詞規範同理：製作文件，且分鏡單本身即劇透
+    case "$out" in 圖片生成|純文字入口|伏筆追蹤|分鏡提示詞規範) continue ;; esac
     case "$out" in
       角色設定) out=characters ;;
       世界觀-劍關規則) out=world ;;
