@@ -90,6 +90,8 @@ CI 在 `.github/workflows/`，`docs/**` 有變動會觸發 pages 重建。
 - **像素圖縮放必須用 nearest-neighbor**（`compress-image.ps1 -Pixel`），雙線性會把硬邊糊成爛泥
 - **image-to-image 的 `quality` 預設是 `medium` 不是 `low`**，不顯式指定會貴約 4 倍
 - **`伏筆追蹤.md` 內容即劇透**，不上讀者網站
+- **過場要「結構變、亮度穩」**——相鄰頁差異太小讀者看不見，明度跳太大會刺眼，
+  用 `tools/check-transitions.py` 量，不要用眼睛審 538 個過場
 - 環境沒有 ImageMagick，縮放一律走 ffmpeg
 
 ---
