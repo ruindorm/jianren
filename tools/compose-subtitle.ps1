@@ -37,12 +37,14 @@ param(
 $ErrorActionPreference = 'Stop'
 
 $ff = (Get-Command ffmpeg  -ErrorAction SilentlyContinue).Source
-if (-not $ff) { $ff = 'D:\tease69\tools\ffmpeg\bin\ffmpeg.exe' }
-if (-not (Test-Path $ff)) { throw '找不到 ffmpeg' }
+if (-not $ff) { $ff = $env:FFMPEG_PATH }
+if (-not $ff -or -not (Test-Path $ff)) {
+  throw '找不到 ffmpeg。把它加進 PATH，或設環境變數 FFMPEG_PATH 指向 ffmpeg.exe'
+}
 
 $fp = (Get-Command ffprobe -ErrorAction SilentlyContinue).Source
 if (-not $fp) { $fp = Join-Path (Split-Path $ff) 'ffprobe.exe' }
-if (-not (Test-Path $fp)) { throw '找不到 ffprobe' }
+if (-not (Test-Path $fp)) { throw '找不到 ffprobe（通常與 ffmpeg 同目錄）' }
 
 if (-not (Test-Path $In))   { throw "找不到來源圖：$In" }
 if (-not (Test-Path $Font)) { throw "找不到字型：$Font（用 -Font 指定）" }

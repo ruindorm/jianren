@@ -25,8 +25,10 @@ param(
 $ErrorActionPreference = 'Stop'
 
 $ff = (Get-Command ffmpeg -ErrorAction SilentlyContinue).Source
-if (-not $ff) { $ff = 'D:\tease69\tools\ffmpeg\bin\ffmpeg.exe' }
-if (-not (Test-Path $ff)) { throw '找不到 ffmpeg' }
+if (-not $ff) { $ff = $env:FFMPEG_PATH }
+if (-not $ff -or -not (Test-Path $ff)) {
+  throw '找不到 ffmpeg。把它加進 PATH，或設環境變數 FFMPEG_PATH 指向 ffmpeg.exe'
+}
 
 if (-not (Test-Path $OutDir)) { New-Item -ItemType Directory -Force $OutDir | Out-Null }
 $flags = if ($Pixel) { ':flags=neighbor' } else { '' }
