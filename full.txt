@@ -1,5 +1,5 @@
 劍人
-作者：Yang Hou
+作者：吾名
 線上閱讀：https://ruindorm.github.io/jianren/
 原始倉庫：https://github.com/ruindorm/jianren
 授權：CC BY-NC-ND 4.0 — 免費閱讀，轉載請標示作者與出處，禁止商業使用與改作。
@@ -941,7 +941,7 @@
 
 # 版權說明
 
-《劍人》　著作人：Yang Hou（侯陽）
+《劍人》　著作人：吾名（本名侯陽）
 聯絡方式：pftmax@gmail.com
 
 本作品**免費公開閱讀**，但作者保留全部著作權。
@@ -959,7 +959,7 @@
 
 轉貼時請附上這一行：
 
-> 《劍人》作者：Yang Hou　原文：https://github.com/ruindorm/jianren
+> 《劍人》作者：吾名　原文：https://github.com/ruindorm/jianren
 
 ## 你不可以做的
 

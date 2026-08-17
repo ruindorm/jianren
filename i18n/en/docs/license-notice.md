@@ -1,7 +1,7 @@
 # Copyright & Licence
 
 *Bastard Blade* (《劍人》)
-Author: Yang Hou
+Author: Wu Ming
 Contact: pftmax@gmail.com
 
 **Free to read. All rights reserved by the author.**
@@ -19,7 +19,7 @@ Licence: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 When reposting, please include this line:
 
-> *Bastard Blade* by Yang Hou — https://github.com/ruindorm/jianren
+> *Bastard Blade* by Wu Ming — https://github.com/ruindorm/jianren
 
 ## You may not
 

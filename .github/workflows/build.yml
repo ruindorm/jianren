@@ -64,7 +64,7 @@ jobs:
             gh release create latest \
               --prerelease \
               --title "最新全文（隨更新自動重建）" \
-              --notes $'本 Release 的檔案由 GitHub Actions 在每次章節更新後自動重建，永遠是最新的完整版本。\n\n正式分卷版本請見其他 Release。\n\n《劍人》© 2026 Yang Hou・CC BY-NC-ND 4.0'
+              --notes $'本 Release 的檔案由 GitHub Actions 在每次章節更新後自動重建，永遠是最新的完整版本。\n\n正式分卷版本請見其他 Release。\n\n《劍人》© 2026 吾名・CC BY-NC-ND 4.0'
           gh release upload latest \
             build/*.epub build/*.md build/*.txt build/*.zip \
             --clobber

@@ -1,5 +1,5 @@
 Bastard Blade
-Author: Yang Hou
+Author: Wu Ming
 Read online: https://ruindorm.github.io/jianren/en/
 Source repository: https://github.com/ruindorm/jianren
 Licence: CC BY-NC-ND 4.0 — free to read, credit required, no commercial use, no derivative works.
@@ -906,7 +906,7 @@ Master addresses his disciples generally as "disciple" (used with Senior Brother
 # Copyright & Licence
 
 *Bastard Blade* (《劍人》)
-Author: Yang Hou
+Author: Wu Ming
 Contact: pftmax@gmail.com
 
 **Free to read. All rights reserved by the author.**
@@ -924,7 +924,7 @@ Licence: [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 When reposting, please include this line:
 
-> *Bastard Blade* by Yang Hou — https://github.com/ruindorm/jianren
+> *Bastard Blade* by Wu Ming — https://github.com/ruindorm/jianren
 
 ## You may not
 
@@ -959,7 +959,7 @@ I am the author of this work. **I will be posting this story on RoyalRoad.com.**
 | | |
 |---|---|
 | Royal Road account | **YOU YANG HOU** — <https://www.royalroad.com/profile/1047953> |
-| Author | Yang Hou |
+| Author | Wu Ming (吾名) — pen name of Yang Hou |
 | Original work | 《劍人》 (Chinese) |
 | English title | *Bastard Blade* |
 | First published at | <https://github.com/ruindorm/jianren> |

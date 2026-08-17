@@ -107,8 +107,8 @@
 
 轉載時請附上：
 
-> 《劍人》作者：Yang Hou　原文：https://github.com/ruindorm/jianren
+> 《劍人》作者：吾名　原文：https://github.com/ruindorm/jianren
 
 **想改編、翻譯、做有聲書或商業合作？** 歡迎來信 pftmax@gmail.com 另行洽談授權。
 
-© 2026 Yang Hou. All rights reserved.
+© 2026 吾名. All rights reserved.

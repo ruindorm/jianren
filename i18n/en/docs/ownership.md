@@ -7,7 +7,7 @@ I am the author of this work. **I will be posting this story on RoyalRoad.com.**
 | | |
 |---|---|
 | Royal Road account | **YOU YANG HOU** — <https://www.royalroad.com/profile/1047953> |
-| Author | Yang Hou |
+| Author | Wu Ming (吾名) — pen name of Yang Hou |
 | Original work | 《劍人》 (Chinese) |
 | English title | *Bastard Blade* |
 | First published at | <https://github.com/ruindorm/jianren> |

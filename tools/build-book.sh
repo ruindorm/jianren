@@ -26,7 +26,7 @@ to_hans() {
 }
 
 # 封面用 assets/ 裡的正式美術稿；找不到才退回程式生成
-make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級 $5=來源檔
+make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級 $5=來源檔 $6=署名
   if [ -n "${5:-}" ] && [ -f "$5" ]; then cp "$5" "$1"; return 0; fi
   command -v magick >/dev/null 2>&1 && IM=magick || IM=convert
   command -v $IM >/dev/null 2>&1 || return 1
@@ -38,7 +38,7 @@ make_cover() {  # $1=輸出 $2=主標 $3=副標 $4=字級 $5=來源檔
     -font "$FONT" \
     -fill '#e9dfc4' -pointsize "$4" -gravity north -annotate +0+420 "$2" \
     -fill '#9b93b5' -pointsize 44 -annotate +0+880 "$3" \
-    -fill '#6f6885' -pointsize 40 -gravity south -annotate +0+180 'Yang Hou' \
+    -fill '#6f6885' -pointsize 40 -gravity south -annotate +0+180 "${6:-吾名}" \
     "$1"
 }
 
@@ -48,6 +48,10 @@ build_lang() {
   echo "############ $lang ############"
   local W="$OUT/.work-$lang"
   rm -rf "$W"; mkdir -p "$W"
+
+  # 筆名：中文版署「吾名」，英文版用音譯 Wu Ming
+  local author='吾名'
+  [ "$lang" = en ] && author='Wu Ming'
 
   local f
   for f in $(ls "$src_dir"/*.md | sort); do
@@ -63,7 +67,7 @@ build_lang() {
 ---
 title: "$title"
 subtitle: "$tagline"
-author: Yang Hou
+author: $author
 language: $lang
 rights: "$rights"
 publisher: https://github.com/ruindorm/jianren
@@ -71,7 +75,7 @@ publisher: https://github.com/ruindorm/jianren
 EOF
 
   local COVER=()
-  if make_cover "$W/cover.jpg" "$title" "$tagline" "$cover_size" "$cover_src" 2>/dev/null; then
+  if make_cover "$W/cover.jpg" "$title" "$tagline" "$cover_size" "$cover_src" "$author" 2>/dev/null; then
     COVER=(--epub-cover-image="$W/cover.jpg"); echo "    封面 ✓"
   else
     echo "    封面略過"
@@ -102,11 +106,11 @@ EOF
   rm -rf "$W"
 }
 
-FRONT_HANT='作者：Yang Hou　原文：https://github.com/ruindorm/jianren
+FRONT_HANT='作者：吾名　原文：https://github.com/ruindorm/jianren
 
 本作品免費閱讀。轉載請標示作者與出處，禁止商業使用與改作（CC BY-NC-ND 4.0）。'
 
-FRONT_EN='By Yang Hou — https://github.com/ruindorm/jianren
+FRONT_EN='By Wu Ming — https://github.com/ruindorm/jianren
 
 Free to read. Credit the author and link back when reposting.
 No commercial use, no derivative works (CC BY-NC-ND 4.0).
@@ -114,13 +118,13 @@ No commercial use, no derivative works (CC BY-NC-ND 4.0).
 Transcreated from the Chinese original 《劍人》.'
 
 build_lang zh-Hant src     jianren       '劍人' '降伏賤人，我的劍，是用來把妹的' 300 \
-  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_HANT" assets/cover-zh.jpg
+  '© 2026 吾名 — CC BY-NC-ND 4.0' "$FRONT_HANT" assets/cover-zh.jpg
 
 build_lang zh-Hans src     jianren-hans  '剑人' '降伏贱人，我的剑，是用来把妹的' 300 \
-  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$(echo "$FRONT_HANT" | sed 's/免費閱讀/免费阅读/; s/轉載請標示作者與出處，禁止商業使用與改作/转载请标示作者与出处，禁止商业使用与改作/')" assets/cover-zh.jpg
+  '© 2026 吾名 — CC BY-NC-ND 4.0' "$(echo "$FRONT_HANT" | sed 's/免費閱讀/免费阅读/; s/轉載請標示作者與出處，禁止商業使用與改作/转载请标示作者与出处，禁止商业使用与改作/')" assets/cover-zh.jpg
 
 build_lang en      i18n/en bastard-blade 'BASTARD BLADE' 'Slay the bastards. My sword is for picking up girls.' 150 \
-  '© 2026 Yang Hou — CC BY-NC-ND 4.0' "$FRONT_EN" assets/cover-en.jpg
+  '© 2026 Wu Ming — CC BY-NC-ND 4.0' "$FRONT_EN" assets/cover-en.jpg
 
 echo
 echo "完成："

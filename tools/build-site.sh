@@ -51,13 +51,13 @@ build_lang() {
   local footer notice
   if [ "$lang" = en ]; then
     notice='Free to read. Credit the author and link back when reposting. No commercial use, no derivative works.'
-    footer="<div class=\"jr-footer\">$switcher<br><em>Bastard Blade</em> © 2026 Yang Hou・<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a><br>$notice</div>"
+    footer="<div class=\"jr-footer\">$switcher<br><em>Bastard Blade</em> © 2026 Wu Ming・<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">CC BY-NC-ND 4.0</a><br>$notice</div>"
   elif [ "$lang" = zh-Hans ]; then
     notice='免费阅读。转载请标示作者与出处，禁止商业使用与改作。'
-    footer="<div class=\"jr-footer\">$switcher<br>《剑人》© 2026 Yang Hou・<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh\">CC BY-NC-ND 4.0</a><br>$notice</div>"
+    footer="<div class=\"jr-footer\">$switcher<br>《剑人》© 2026 吾名・<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh\">CC BY-NC-ND 4.0</a><br>$notice</div>"
   else
     notice='免費閱讀。轉載請標示作者與出處，禁止商業使用與改作。'
-    footer="<div class=\"jr-footer\">$switcher<br>《劍人》© 2026 Yang Hou・<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW\">CC BY-NC-ND 4.0</a><br>$notice</div>"
+    footer="<div class=\"jr-footer\">$switcher<br>《劍人》© 2026 吾名・<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW\">CC BY-NC-ND 4.0</a><br>$notice</div>"
   fi
 
   # ---- 章節 ----
@@ -345,15 +345,15 @@ EOF
   local head_by head_read head_repo head_lic head_note
   case "$lang" in
     en)
-      head_by='Author: Yang Hou'; head_read='Read online: '; head_repo='Source repository: '
+      head_by='Author: Wu Ming'; head_read='Read online: '; head_repo='Source repository: '
       head_lic='Licence: CC BY-NC-ND 4.0 — free to read, credit required, no commercial use, no derivative works.'
       head_note='Full text in one file. Rebuilt automatically on every update.' ;;
     zh-Hans)
-      head_by='作者：Yang Hou'; head_read='在线阅读：'; head_repo='原始仓库：'
+      head_by='作者：吾名'; head_read='在线阅读：'; head_repo='原始仓库：'
       head_lic='授权：CC BY-NC-ND 4.0 — 免费阅读，转载请标示作者与出处，禁止商业使用与改作。'
       head_note='本檔為全書純文字合訂本，每次更新後自動重建。' ;;
     *)
-      head_by='作者：Yang Hou'; head_read='線上閱讀：'; head_repo='原始倉庫：'
+      head_by='作者：吾名'; head_read='線上閱讀：'; head_repo='原始倉庫：'
       head_lic='授權：CC BY-NC-ND 4.0 — 免費閱讀，轉載請標示作者與出處，禁止商業使用與改作。'
       head_note='本檔為全書純文字合訂本，每次更新後自動重建。' ;;
   esac
@@ -448,7 +448,7 @@ list_txt() {  # $1 = 輸出子目錄（空 = 正體中文），$2 = chapters|doc
 > 整天自言自語——只有那把劍知道，他們正在為劍關決戰計算勝率。
 > A xianxia comedy about a cultivator whose AI sword has a filthy mouth.
 
-作者 Yang Hou・授權 CC BY-NC-ND 4.0（免費閱讀，轉載須標示作者與出處，
+作者 吾名・授權 CC BY-NC-ND 4.0（免費閱讀，轉載須標示作者與出處，
 禁止商業使用與改作）・原始倉庫 $REPO_URL
 
 **要一次拿到全文，抓下面這一個網址就夠了。** 純文字、免 JavaScript、路徑全 ASCII。

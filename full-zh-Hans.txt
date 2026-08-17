@@ -1,5 +1,5 @@
 剑人
-作者：Yang Hou
+作者：吾名
 在线阅读：https://ruindorm.github.io/jianren/zh-Hans/
 原始仓库：https://github.com/ruindorm/jianren
 授权：CC BY-NC-ND 4.0 — 免费阅读，转载请标示作者与出处，禁止商业使用与改作。
@@ -941,7 +941,7 @@
 
 # 版权说明
 
-《剑人》　著作人：Yang Hou（侯阳）
+《剑人》　著作人：吾名（本名侯阳）
 联系方式：pftmax@gmail.com
 
 本作品**免费公开阅读**，但作者保留全部著作权。
@@ -959,7 +959,7 @@
 
 转贴时请附上这一行：
 
-> 《剑人》作者：Yang Hou　原文：https://github.com/ruindorm/jianren
+> 《剑人》作者：吾名　原文：https://github.com/ruindorm/jianren
 
 ## 你不可以做的
 
