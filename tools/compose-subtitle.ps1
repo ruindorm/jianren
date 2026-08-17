@@ -1,10 +1,14 @@
 <#
 .SYNOPSIS
-  把台詞合成到 16:9 畫面下方的字幕條，輸出 3:2。
+  把台詞合成到 16:9 畫面下方的字幕條，輸出 4:3（圖 3/4、字幕 1/4）。
 
 .DESCRIPTION
   圖片只負責圖片，台詞一律在這裡合成——生成的畫面永遠不含文字。
   只 pad 不 scale，像素硬邊完整保留。
+
+  **網頁版不該用這支腳本。** 網頁把字幕用 HTML 疊在圖上，
+  可選取、可搜尋、改錯字不用重生圖，三個語言共用同一批圖。
+  這支是給 EPUB、社群貼圖、下載版用的——那些場合字幕必須烤死。
 
   文字走 drawtext 的 textfile= 而非 text=，避開中文與 ：！～ 的跳脫問題。
   超過單行上限會自動斷成兩行；兩行還放不下就報錯——那代表這句台詞該拆節拍。
@@ -23,11 +27,11 @@ param(
   [string] $Font     = 'C:\Windows\Fonts\msjh.ttc',   # 微軟正黑體
   [string] $BandBG   = '0x12121a',
   [string] $TextRGB  = '0xf2f2f2',
-  [int]    $MaxChars = 30                             # 單行上限（全形字）
-                                                      # 30 是拿全書 337 拍實測出來的：
-                                                      # 22 有 30 拍放不下，30 只剩 5 拍，
-                                                      # 而那 5 拍本來就該拆成兩個節拍。
-                                                      # 1536 幅寬下 30 字約 1260px，餘白 276px。
+  [int]    $MaxChars = 23,                            # 單行上限（全形字）
+  [int]    $MaxLines = 3                              # 行數上限
+                                                      # 3 行 × 23 字 = 69 字容量。
+                                                      # 拿全書 337 拍實測：0 拍放不下。
+                                                      # （最長的一拍是第四章 67 字。）
 )
 
 $ErrorActionPreference = 'Stop'
@@ -43,35 +47,37 @@ if (-not (Test-Path $fp)) { throw '找不到 ffprobe' }
 if (-not (Test-Path $In))   { throw "找不到來源圖：$In" }
 if (-not (Test-Path $Font)) { throw "找不到字型：$Font（用 -Font 指定）" }
 
-# ---- 尺寸：16:9 往下 pad 成 3:2 ----
+# ---- 尺寸：圖佔 3/4、字幕佔 1/4，總畫布必為 4:3 ----
+# 圖是 16:9，字幕 = 圖高 / 3，總高 = 圖高 × 4/3 = 寬 × 3/4。
 $wh = (& $fp -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0:s=x $In).Trim()
 $W, $H = $wh.Split('x') | ForEach-Object { [int]$_ }
 
-$outH = [math]::Round($W * 2 / 3)
+$outH = [math]::Round($W * 3 / 4)
 $band = $outH - $H
-if ($band -lt 40) { throw "字幕條只有 ${band}px——來源不是 16:9？實際 ${W}x${H}" }
+if ($band -lt 80) { throw "字幕條只有 ${band}px——來源不是 16:9？實際 ${W}x${H}" }
 
-# ---- 斷行 ----
+# ---- 斷行（最多 $MaxLines 行）----
 $lines = @()
-if ($Text.Length -le $MaxChars) {
-  $lines = @($Text)
-} else {
+$rest  = $Text
+while ($rest.Length -gt $MaxChars -and $lines.Count -lt $MaxLines - 1) {
   # 優先在標點後斷，找不到就硬切
   $cut = -1
-  foreach ($p in '。','！','？','—','，','、','…') {
-    $i = $Text.LastIndexOf($p, [math]::Min($MaxChars, $Text.Length - 1))
+  foreach ($p in '。','！','？','—','，','、','…','：') {
+    $i = $rest.LastIndexOf($p, [math]::Min($MaxChars, $rest.Length - 1))
     if ($i -gt $cut) { $cut = $i }
   }
   if ($cut -lt [int]($MaxChars / 3)) { $cut = $MaxChars - 1 }
-  $lines = @($Text.Substring(0, $cut + 1), $Text.Substring($cut + 1))
+  $lines += $rest.Substring(0, $cut + 1)
+  $rest   = $rest.Substring($cut + 1)
 }
-if ($lines.Count -gt 2 -or $lines[-1].Length -gt $MaxChars) {
-  throw "兩行放不下（$($Text.Length) 字）——這句台詞該拆成兩個節拍"
+$lines += $rest
+if ($lines[-1].Length -gt $MaxChars) {
+  throw "$MaxLines 行放不下（$($Text.Length) 字）——這句該拆成兩個節拍"
 }
 
-# ---- 排版 ----
-$size = [math]::Round($band * 0.26)
-$lead = [math]::Round($size * 1.35)
+# ---- 排版：$MaxLines 行填滿字幕條的 82% ----
+$lead = [math]::Floor($band * 0.82 / $MaxLines)
+$size = [math]::Floor($lead / 1.35)
 $block = $lines.Count * $lead
 $y0 = $H + [math]::Round(($band - $block) / 2) + [math]::Round(($lead - $size) / 2)
 
