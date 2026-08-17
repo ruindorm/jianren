@@ -12,6 +12,11 @@ $RECYCLE.BIN/
 .vscode/
 .idea/
 
+# 金鑰（目前放在倉庫外，這是保險）
+.env
+.env.*
+!.env.example
+
 # 暫存與匯出
 /tmp/
 /build/
